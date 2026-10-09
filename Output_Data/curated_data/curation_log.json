@@ -1,0 +1,96 @@
+{
+  "created": "2026-10-06T05:53:33+00:00",
+  "iqrMultiplier": 1.5,
+  "properties": {
+    "Tb": {
+      "version": "noOutlier",
+      "rule": {
+        "targetRange": [
+          0,
+          600
+        ]
+      },
+      "removeDuplicateStructures": false,
+      "inputFile": "Tb_prediction_data_fcl_with_N.csv",
+      "inputSha1": "88340445f528e570128c68fda4fc9141717098eb",
+      "curatedFile": "Tb_curated.csv",
+      "curatedSha1": "cf5150a2b75eb79e1ae876931feebc235f2601c4",
+      "rows": 886
+    },
+    "Tm": {
+      "version": "noOutlier",
+      "rule": {
+        "targetRange": [
+          0,
+          700
+        ]
+      },
+      "removeDuplicateStructures": false,
+      "inputFile": "Tm_prediction_data_fcl_with_N.csv",
+      "inputSha1": "be6e44d927d373373667c9d0bc154ae150534275",
+      "curatedFile": "Tm_curated.csv",
+      "curatedSha1": "8577ff1bcd625c335ae78d1dd3440e4c8bec9739",
+      "rows": 1839
+    },
+    "Pc": {
+      "version": "allData",
+      "rule": null,
+      "removeDuplicateStructures": false,
+      "inputFile": "Pc_prediction_data_fcl_with_N.csv",
+      "inputSha1": "2dfd39ed2d477e0b5735edcfc8ff01eb54886359",
+      "curatedFile": "Pc_curated.csv",
+      "curatedSha1": "2dfd39ed2d477e0b5735edcfc8ff01eb54886359",
+      "rows": 75
+    },
+    "Vc": {
+      "version": "allData",
+      "rule": null,
+      "removeDuplicateStructures": false,
+      "inputFile": "Vc_prediction_data_fcl_with_N.csv",
+      "inputSha1": "7ed966f1ac8dcd1cf8675b3f08ec073f2c95f194",
+      "curatedFile": "Vc_curated.csv",
+      "curatedSha1": "7ed966f1ac8dcd1cf8675b3f08ec073f2c95f194",
+      "rows": 69
+    },
+    "Tc": {
+      "version": "noOutlier",
+      "rule": {
+        "targetRange": [
+          0,
+          800
+        ]
+      },
+      "removeDuplicateStructures": false,
+      "inputFile": "Tc_prediction_data_fcl_with_N.csv",
+      "inputSha1": "68ba664c347a762ad5d9cb3a8658cfa5f25f6afe",
+      "curatedFile": "Tc_curated.csv",
+      "curatedSha1": "60d1fe0b6c8edceef2b6a470699ee252cdefb69f",
+      "rows": 70
+    },
+    "Hvap": {
+      "version": "noOutlier",
+      "rule": {
+        "targetRange": [
+          10,
+          70
+        ]
+      },
+      "removeDuplicateStructures": false,
+      "inputFile": "Hvap_prediction_data_fcl_with_N.csv",
+      "inputSha1": "25ef52420cc1281bf5b385c8ef0bf8110f09b111",
+      "curatedFile": "Hvap_curated.csv",
+      "curatedSha1": "1c82f259708ac03c08e0aa1dedb84960b7fd17d4",
+      "rows": 70
+    },
+    "logP": {
+      "version": "allData",
+      "rule": null,
+      "removeDuplicateStructures": true,
+      "inputFile": "logP_prediction_data_fcl_with_N.csv",
+      "inputSha1": "7da9a7cf9ffe9fff387c69d374d385eda59be873",
+      "curatedFile": "logP_curated.csv",
+      "curatedSha1": "071e9930ff94847081aefc51ceb24788f21e86ee",
+      "rows": 2978
+    }
+  }
+}

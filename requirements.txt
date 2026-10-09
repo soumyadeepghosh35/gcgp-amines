@@ -1,0 +1,16 @@
+numpy>=1.26,<2
+pandas>=2.1,<2.3
+scikit-learn==1.5.2
+scikit-multilearn==0.2.0
+tensorflow==2.16.2
+tensorflow-probability==0.24.0
+tf-keras==2.16.0
+gpflow==2.9.2
+xgboost>=2.0
+matplotlib>=3.8,<3.10
+seaborn>=0.13
+rdkit>=2023.9
+jupyter
+ipykernel
+nbclient
+setuptools<70

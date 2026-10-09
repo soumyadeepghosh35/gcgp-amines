@@ -1,0 +1,8 @@
+.kernel.kernels[0].variance: 0.460096
+.kernel.kernels[0].lengthscales: 100.
+.kernel.kernels[0].alpha: 1.e-05
+.kernel.kernels[1].variance: 26.807139
+.likelihood.variance: 1.e-05
+Condition number: 15.019807873598696
+Fit success: True
+Log marginal likelihood: -205.62200011438813

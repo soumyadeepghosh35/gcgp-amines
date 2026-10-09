@@ -1,0 +1,740 @@
+Property,Input_Row,CAS Reg. No.,PubChem SMILES,Experimental,GC_Estimate,GC_Error,Reason,Detail
+Tb,8,260-94-6,C1=CC=C2C(=C1)C=C3C=CC=CC3=N2,620.05,620.36,-0.3100000000000591,Experimental value outside the accepted range,"range [0, 600]"
+Tb,17,60-09-3,C1=CC=C(C=C1)N=NC2=CC=C(C=C2)N,633.15,754.23,-121.08000000000004,Experimental value outside the accepted range,"range [0, 600]"
+Tb,56,92-87-5,C1=CC(=CC=C1C2=CC=C(C=C2)N)N,674.15,682.54,-8.389999999999986,Experimental value outside the accepted range,"range [0, 600]"
+Tb,57,51-17-2,C1=CC=C2C(=C1)NC=N2,633.15,504.24,128.90999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,60,85-02-9,C1=CC=C2C(=C1)C=CC3=C2C=CC=N3,625.15,620.36,4.789999999999964,Experimental value outside the accepted range,"range [0, 600]"
+Tb,61,230-27-3,C1=CC=C2C(=C1)C=CC3=C2N=CC=C3,614.45,620.36,-5.909999999999968,Experimental value outside the accepted range,"range [0, 600]"
+Tb,64,934-34-9,C1=CC=C2C(=C1)NC(=O)S2,633.15,567.03,66.12,Experimental value outside the accepted range,"range [0, 600]"
+Tb,66,59-49-4,C1=CC=C2C(=C1)NC(=O)O2,608.15,501.06,107.08999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,67,835-64-3,C1=CC=C(C(=C1)C2=NC3=CC=CC=C3O2)O,611.15,732.2,-121.05000000000007,Experimental value outside the accepted range,"range [0, 600]"
+Tb,79,492-17-1,C1=CC=C(C(=C1)C2=CC=C(C=C2)N)N,636.15,682.54,-46.389999999999986,Experimental value outside the accepted range,"range [0, 600]"
+Tb,149,86-74-8,C1=CC=C2C(=C1)C3=CC=CC=C3N2,627.75,588.9000000000001,38.84999999999991,Experimental value outside the accepted range,"range [0, 600]"
+Tb,166,5567-15-7,CC(=O)C(C(=O)NC1=CC(=C(C=C1OC)Cl)OC)N=NC2=C(C=C(C=C2)C3=CC(=C(C=C3)N=NC(C(=O)C)C(=O)NC4=CC(=C(C=C4OC)Cl)OC)Cl)Cl,697.15,2032.54,-1335.3899999999999,Experimental value outside the accepted range,"range [0, 600]"
+Tb,196,588-07-8,CC(=O)NC1=CC(=CC=C1)Cl,606.15,555.77,50.379999999999995,Experimental value outside the accepted range,"range [0, 600]"
+Tb,197,539-03-7,CC(=O)NC1=CC=C(C=C1)Cl,605.15,555.77,49.379999999999995,Experimental value outside the accepted range,"range [0, 600]"
+Tb,207,1897-45-6,C(#N)C1=C(C(=C(C(=C1Cl)Cl)Cl)C#N)Cl,623.15,788.0999999999999,-164.94999999999993,Experimental value outside the accepted range,"range [0, 600]"
+Tb,240,101-77-9,C1=CC(=CC=C1CC2=CC=C(C=C2)N)N,652.15,705.4200000000001,-53.270000000000095,Experimental value outside the accepted range,"range [0, 600]"
+Tb,266,1120-49-6,CCCCCCCCCCNCCCCCCCCCC,632.15,707.3699999999999,-75.21999999999991,Experimental value outside the accepted range,"range [0, 600]"
+Tb,302,480-91-1,C1C2=CC=CC=C2C(=O)N1,611.15,542.0799999999999,69.07000000000005,Experimental value outside the accepted range,"range [0, 600]"
+Tb,352,611-92-7,CN(C1=CC=CC=C1)C(=O)N(C)C2=CC=CC=C2,623.15,674.9100000000001,-51.760000000000105,Experimental value outside the accepted range,"range [0, 600]"
+Tb,409,605-71-0,C1=CC2=C(C=CC=C2[N+](=O)[O-])C(=C1)[N+](=O)[O-],644.15,787.7,-143.55000000000007,Experimental value outside the accepted range,"range [0, 600]"
+Tb,415,622-16-2,C1=CC=C(C=C1)N=C=NC2=CC=CC=C2,604.15,702.8699999999999,-98.71999999999991,Experimental value outside the accepted range,"range [0, 600]"
+Tb,416,620-81-5,C1=CC=C(C=C1)NC(=O)C(=O)NC2=CC=CC=C2,633.15,781.3599999999999,-148.20999999999992,Experimental value outside the accepted range,"range [0, 600]"
+Tb,418,92-71-7,C1=CC=C(C=C1)C2=CN=C(O2)C3=CC=CC=C3,633.15,705.04,-71.88999999999999,Experimental value outside the accepted range,"range [0, 600]"
+Tb,419,16898-52-5,C1CNCCC1CCCC2CCNCC2,602.15,633.24,-31.090000000000032,Experimental value outside the accepted range,"range [0, 600]"
+Tb,515,51-21-8,C1=C(C(=O)NC(=O)N1)F,642.15,551.49,90.65999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,516,102851-06-9,CC(C)C(C(=O)OC(C#N)C1=CC(=CC=C1)OC2=CC=CC=C2)NC3=C(C=C(C=C3)C(F)(F)F)Cl,723.15,1153.04,-429.89,Experimental value outside the accepted range,"range [0, 600]"
+Tb,519,4200-95-7,CCCCCCCCCCCCCCCCCN,609.15,661.0899999999999,-51.93999999999994,Experimental value outside the accepted range,"range [0, 600]"
+Tb,520,5399-02-0,CCCCCCCCCCCCCCCCC#N,622.15,690.64,-68.49000000000001,Experimental value outside the accepted range,"range [0, 600]"
+Tb,527,629-79-8,CCCCCCCCCCCCCCCC#N,606.15,667.76,-61.610000000000014,Experimental value outside the accepted range,"range [0, 600]"
+Tb,529,112-69-6,CCCCCCCCCCCCCCCCN(C)C,603.15,623.8799999999999,-20.729999999999905,Experimental value outside the accepted range,"range [0, 600]"
+Tb,541,10525-37-8,CCCCCCCCCCCCCCCCCCCCN,662.15,729.73,-67.58000000000004,Experimental value outside the accepted range,"range [0, 600]"
+Tb,595,6528-34-3,CC(=O)C(C(=O)NC1=CC=CC=C1OC)N=NC2=C(C=C(C=C2)OC)[N+](=O)[O-],604.15,1183.09,-578.9399999999999,Experimental value outside the accepted range,"range [0, 600]"
+Tb,597,2396-60-3,COC1=CC=C(C=C1)N=NC2=CC=CC=C2,613.15,727.0,-113.85000000000002,Experimental value outside the accepted range,"range [0, 600]"
+Tb,634,92-36-4,CC1=CC2=C(C=C1)N=C(S2)C3=CC=C(C=C3)N,707.15,777.8299999999999,-70.67999999999995,Experimental value outside the accepted range,"range [0, 600]"
+Tb,646,4630-20-0,CC1=CC2=C(C=C1)NC3=CC=CC=C32,638.15,616.76,21.389999999999986,Experimental value outside the accepted range,"range [0, 600]"
+Tb,677,620-93-9,CC1=CC=C(C=C1)NC2=CC=C(C=C2)C,603.65,633.4100000000001,-29.760000000000105,Experimental value outside the accepted range,"range [0, 600]"
+Tb,745,532-18-3,C1=CC=C2C=C(C=CC2=C1)NC3=CC4=CC=CC=C4C=C3,744.15,808.6500000000001,-64.50000000000011,Experimental value outside the accepted range,"range [0, 600]"
+Tb,749,100-01-6,C1=CC(=CC=C1N)[N+](=O)[O-],601.15,592.91,8.240000000000009,Experimental value outside the accepted range,"range [0, 600]"
+Tb,760,92-93-3,C1=CC=C(C=C1)C2=CC=C(C=C2)[N+](=O)[O-],613.15,684.3399999999999,-71.18999999999994,Experimental value outside the accepted range,"range [0, 600]"
+Tb,793,638-65-3,CCCCCCCCCCCCCCCCCC#N,635.15,713.52,-78.37,Experimental value outside the accepted range,"range [0, 600]"
+Tb,794,124-30-1,CCCCCCCCCCCCCCCCCCN,623.15,683.97,-60.82000000000005,Experimental value outside the accepted range,"range [0, 600]"
+Tb,823,229-87-8,C1=CC=C2C(=C1)C=NC3=CC=CC=C23,623.45,620.36,3.090000000000032,Experimental value outside the accepted range,"range [0, 600]"
+Tb,824,230-46-6,C1=CC2=C(C3=C(C=C2)N=CC=C3)N=C1,633.15,651.1800000000001,-18.030000000000086,Experimental value outside the accepted range,"range [0, 600]"
+Tb,825,66-71-7,C1=CC2=C(C3=C(C=CC=N3)C=C2)N=C1,682.3499999999999,651.1800000000001,31.169999999999845,Experimental value outside the accepted range,"range [0, 600]"
+Tb,826,92-84-2,C1=CC=C2C(=C1)NC3=CC=CC=C3S2,644.15,641.0,3.1499999999999773,Experimental value outside the accepted range,"range [0, 600]"
+Tb,828,602-56-2,C1=CC=C(C=C1)C2=C3C=CC=CC3=NC4=CC=CC=C42,677.15,789.3,-112.14999999999998,Experimental value outside the accepted range,"range [0, 600]"
+Tb,829,101-18-8,C1=CC=C(C=C1)NC2=CC(=CC=C2)O,613.15,658.31,-45.15999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,830,122-37-2,C1=CC=C(C=C1)NC2=CC=C(C=C2)O,603.15,658.31,-55.15999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,832,101-54-2,C1=CC=C(C=C1)NC2=CC=C(C=C2)N,627.15,655.2,-28.050000000000068,Experimental value outside the accepted range,"range [0, 600]"
+Tb,836,883-93-2,C1=CC=C(C=C1)C2=NC3=CC=CC=C3S2,644.15,672.46,-28.31000000000006,Experimental value outside the accepted range,"range [0, 600]"
+Tb,841,670-96-2,C1=CC=C(C=C1)C2=NC=CN2,613.15,557.7,55.44999999999993,Experimental value outside the accepted range,"range [0, 600]"
+Tb,847,135-88-6,C1=CC=C(C=C1)NC2=CC3=CC=CC=C3C=C2,668.65,693.1700000000001,-24.520000000000095,Experimental value outside the accepted range,"range [0, 600]"
+Tb,861,612-96-4,C1=CC=C(C=C1)C2=NC3=CC=CC=C3C=C2,636.15,673.82,-37.67000000000007,Experimental value outside the accepted range,"range [0, 600]"
+Tb,911,626-64-2,C1=CNC=CC1=O,623.15,452.91,170.23999999999995,Experimental value outside the accepted range,"range [0, 600]"
+Tb,928,580-16-5,C1=CC2=C(C=CC(=C2)O)N=C1,633.15,585.5,47.64999999999998,Experimental value outside the accepted range,"range [0, 600]"
+Tb,931,1196-57-2,C1=CC=C2C(=C1)NC(=O)C=N2,634.15,599.21,34.93999999999994,Experimental value outside the accepted range,"range [0, 600]"
+Tb,932,110-14-5,C(CC(=O)N)C(=O)N,705.15,543.9200000000001,161.2299999999999,Experimental value outside the accepted range,"range [0, 600]"
+Tb,936,1148-79-4,C1=CC=NC(=C1)C2=NC(=CC=C2)C3=CC=CC=N3,643.15,788.9200000000001,-145.7700000000001,Experimental value outside the accepted range,"range [0, 600]"
+Tb,941,112-57-2,C(CNCCNCCNCCN)N,614.65,678.21,-63.56000000000006,Experimental value outside the accepted range,"range [0, 600]"
+Tb,946,942-01-8,C1CCC2=C(C1)C3=CC=CC=C3N2,600.65,590.5799999999999,10.07000000000005,Experimental value outside the accepted range,"range [0, 600]"
+Tb,984,620-40-6,C1=CC=C(C=C1)CN(CC2=CC=CC=C2)CC3=CC=CC=C3,658.15,772.56,-114.40999999999997,Experimental value outside the accepted range,"range [0, 600]"
+Tb,997,1070-01-5,CCCCCCCCCCN(CCCCCCCCCC)CCCCCCCCCC,679.15,898.44,-219.29000000000008,Experimental value outside the accepted range,"range [0, 600]"
+Tb,999,102-71-6,C(CO)N(CCO)CCO,623.15,625.8599999999999,-2.7099999999999227,Experimental value outside the accepted range,"range [0, 600]"
+Tb,1020,118-96-7,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],623.15,856.9000000000001,-233.7500000000001,Experimental value outside the accepted range,"range [0, 600]"
+Tb,1021,1116-76-3,CCCCCCCCN(CCCCCCCC)CCCCCCCC,652.15,761.1599999999999,-109.00999999999988,Experimental value outside the accepted range,"range [0, 600]"
+Tb,1023,603-34-9,C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=CC=CC=C3,635.15,703.9200000000001,-68.7700000000001,Experimental value outside the accepted range,"range [0, 600]"
+Tb,1,60-35-5,CC(=O)N,495.15,371.76,123.38999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,9,79-06-1,C=CC(=O)N,465.75,391.3200000000001,74.4299999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,44,17082-12-1,C1=CC=C(C=C1)N=NC2=CC=CC=C2,573.15,676.72,-103.57000000000005,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,45,821-67-0,CCCN=NCCC,387.15,486.08,-98.93,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,59,532-96-7,C1=CC=C(C=C1)C(=O)NNC2=CC=CC=C2,587.15,704.6099999999999,-117.45999999999992,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,92,10024-74-5,CC(C1=CC=CC=C1)NC(C)C2=CC=CC=C2,569.65,668.3299999999999,-98.67999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,114,541-35-5,CCCC(=O)N,504.95,417.52,87.43,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,147,1071-98-3,C(#CC#N)C#N,349.65,504.28,-154.63,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,150,1115-12-4,C(#N)C(=O)C#N,338.65,526.27,-187.62,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,151,55285-14-8,CCCCN(CCCC)SN(C)C(=O)OC1=CC=CC2=C1OC(C2)(C)C,399.15,879.6499999999999,-480.4999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,152,79-07-2,C(C(=O)N)Cl,498.15,409.19,88.95999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,164,2698-41-1,C1=CC=C(C(=C1)C=C(C#N)C#N)Cl,585.15,705.6899999999999,-120.53999999999996,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,170,97-00-7,C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])Cl,588.15,714.6299999999999,-126.4799999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,171,606-21-3,C1=CC(=C(C(=C1)[N+](=O)[O-])Cl)[N+](=O)[O-],588.15,714.6299999999999,-126.4799999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,208,1943-16-4,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])Cl,429.15,712.2,-283.05000000000007,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,211,420-05-3,C(#N)O,296.15,416.74,-120.59000000000003,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,213,460-19-5,C(#N)C#N,252.05,449.52,-197.46999999999997,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,216,1495-50-7,C(#N)F,227.15,323.83,-96.67999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,217,675-14-9,C1(=NC(=NC(=N1)F)F)F,345.95,463.79,-117.84000000000003,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,239,101-80-4,C1=CC(=CC=C1N)OC2=CC=C(C=C2)N,573.15,704.96,-131.81000000000006,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,270,685-91-6,CCN(CC)C(=O)C,472.15,403.19,68.95999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,283,1149-24-2,CCOC(=O)C1=CC(=C(N=C1C)C)C(=O)OCC,574.15,708.8,-134.64999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,318,127-19-5,CC(=O)N(C)C,439.05,357.42999999999995,81.62000000000006,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,351,4143-41-3,CN=NC,274.65,394.56,-119.91000000000003,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,360,930-62-1,CC1=CN=C(N1)C,540.15,444.48,95.66999999999996,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,376,758-96-3,CCC(=O)N(C)C,449.15,380.31,68.83999999999997,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,402,96-31-1,CNC(=O)NC,542.15,422.45,119.69999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,404,99-65-0,C1=CC(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-],569.15,672.22,-103.07000000000005,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,405,100-25-4,C1=CC(=CC=C1[N+](=O)[O-])[N+](=O)[O-],570.15,672.22,-102.07000000000005,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,406,2436-96-6,C1=CC=C(C(=C1)C2=CC=CC=C2[N+](=O)[O-])[N+](=O)[O-],578.15,841.1599999999999,-263.0099999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,410,601-76-3,CCC([N+](=O)[O-])[N+](=O)[O-],467.15,571.48,-104.33000000000004,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,411,595-49-3,CC(C)([N+](=O)[O-])[N+](=O)[O-],459.15,568.69,-109.54000000000008,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,417,622-15-1,C1=CC=C(C=C1)NC=NC2=CC=CC=C2,523.15,677.25,-154.10000000000002,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,425,321-98-2,CC(C(C1=CC=CC=C1)O)NC,498.15,596.55,-98.39999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,426,299-42-3,CC(C(C1=CC=CC=C1)O)NC,498.15,596.55,-98.39999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,439,625-50-3,CCNC(=O)C,478.15,395.16,82.98999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,454,94-05-3,CCOC=C(C#N)C(=O)OCC,463.65,569.4000000000001,-105.75000000000011,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,486,99-77-4,CCOC(=O)C1=CC=C(C=C1)[N+](=O)[O-],459.45,647.24,-187.79000000000002,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,510,70-34-8,C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])F,569.15,676.47,-107.32000000000005,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,542,288-32-4,C1=CN=CN1,530.15,388.76,141.39,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,604,79-16-3,CC(=O)NC,481.15,372.28,108.87,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,609,623-59-6,CC(=O)NC(=O)NC,584.15,499.2,84.94999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,645,598-55-0,COC(=O)N,464.15,376.11,88.03999999999996,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,651,618-85-9,CC1=CC(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-],598.15,700.0799999999999,-101.92999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,652,606-20-2,CC1=C(C=CC=C1[N+](=O)[O-])[N+](=O)[O-],558.15,700.0799999999999,-141.92999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,663,693-98-1,CC1=NC=CN1,540.15,416.62,123.52999999999997,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,664,822-36-6,CC1=CN=CN1,536.15,416.62,119.52999999999997,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,700,563-83-7,CC(C)C(=O)N,490.15,417.08,73.07,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,701,1187-58-2,CCC(=O)NC,480.15,395.16,84.98999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,724,108-27-0,CC1CCC(=O)N1,521.15,445.65,75.5,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,746,494-04-2,C1=CC(=CN=C1)C2=CC(=NC=C2)C3=CN=CC=C3,573.15,788.9200000000001,-215.7700000000001,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,755,15121-84-3,C1=CC=C(C(=C1)CCO)[N+](=O)[O-],540.15,658.3199999999999,-118.16999999999996,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,757,62-23-7,C1=CC(=CC=C1C(=O)O)[N+](=O)[O-],593.15,688.77,-95.62,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,775,88-75-5,C1=CC=C(C(=C1)[N+](=O)[O-])O,489.15,596.02,-106.87,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,776,620-88-2,C1=CC=C(C=C1)OC2=CC=C(C=C2)[N+](=O)[O-],593.15,706.76,-113.61000000000001,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,777,121-89-1,CC(=O)C1=CC(=CC=C1)[N+](=O)[O-],475.15,620.01,-144.86,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,780,55-18-5,CCN(CC)N=O,445.15,366.96,78.19,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,781,62-75-9,CN(C)N=O,419.15,321.2,97.94999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,822,81-33-4,C1=CC2=C3C(=CC=C4C3=C1C5=C6C4=CC=C7C6=C(C=C5)C(=O)NC7=O)C(=O)NC2=O,547.15,1269.68,-722.5300000000001,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,870,675-20-7,C1CCNC(=O)C1,533.15,454.59,78.56,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,873,79-05-0,CCC(=O)N,486.15,394.64,91.50999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,895,288-13-1,C1=CNN=C1,460.15,388.76,71.38999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,898,504-24-5,C1=CN=CC=C1N,546.15,466.91,79.23999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,912,142-08-5,C1=CC(=O)NC=C1,553.15,452.91,100.23999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,922,616-45-5,C1CC(=O)NC1,524.3499999999999,427.44,96.90999999999991,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,933,123-56-8,C1CC(=O)NC1=O,569.15,495.26,73.88999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,937,117-18-0,C1=C(C(=C(C(=C1Cl)Cl)[N+](=O)[O-])Cl)Cl,577.15,685.04,-107.88999999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,939,670-54-2,C(#N)C(=C(C#N)C#N)C#N,496.15,749.1199999999999,-252.9699999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,945,356-16-1,C(C([N+](=O)[O-])(F)F)([N+](=O)[O-])(F)F,331.65,539.66,-208.01,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,969,509-14-8,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],398.75,826.6099999999999,-427.8599999999999,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,988,545-06-2,C(#N)C(Cl)(Cl)Cl,358.85,456.5,-97.64999999999998,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,993,76-06-2,C([N+](=O)[O-])(Cl)(Cl)Cl,385.15,483.38,-98.23000000000002,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,995,108-77-0,C1(=NC(=NC(=N1)Cl)Cl)Cl,465.15,578.27,-113.12,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,1001,354-38-1,C(=O)(C(F)(F)F)N,435.65,366.34,69.31,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,1002,353-85-5,C(#N)C(F)(F)F,204.35,342.02,-137.67,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,1017,632-14-4,CNC(=O)N(C)C,505.65,407.6,98.04999999999995,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,1018,99-35-4,C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],588.15,829.04,-240.89,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tb,1019,1840-42-2,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])F,359.45,674.04,-314.59,GC error outside the 1.5 x IQR fences,"fences [-94.332, 68.507]"
+Tm,25,131-48-6,CC(=O)NC1C(CC(OC1C(C(CO)O)O)(C(=O)O)O)O,459.15,796.1499999999999,-336.9999999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,67,4271-30-1,C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)N,446.15,755.9899999999999,-309.8399999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,117,62-57-7,CC(C)(C(=O)O)N,608.15,381.12,227.02999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,158,29883-15-6,C1=CC=C(C=C1)C(C#N)OC2C(C(C(C(O2)COC3C(C(C(C(O3)CO)O)O)O)O)O)O,497.65,895.7499999999999,-398.0999999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,234,33605-72-0,COC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC(=O)O)NC(=O)OCC2=CC=CC=C2,395.15,761.05,-365.9,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,238,1170-76-9,C1=CC=C(C=C1)CC(C(=O)O)NC(=O)CNC(=O)OCC2=CC=CC=C2,399.15,699.91,-300.76,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,246,114-25-0,CC1=C(C(=CC2=C(C(=C(N2)C=C3C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)NC1=CC4=NC(=O)C(=C4C)C=C)CCC(=O)O,573.15,1536.34,-963.1899999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,280,537-91-7,C1=CC(=CC(=C1)SSC2=CC=CC(=C2)[N+](=O)[O-])[N+](=O)[O-],357.15,658.9,-301.75,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,321,560-95-2,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])Br,291.15,594.0799999999999,-302.92999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,334,33629-47-9,CCC(C)NC1=C(C=C(C=C1[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-],332.45,638.8199999999999,-306.36999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,345,10108-56-2,CCCCNC1CCCCC1,481.45,262.5,218.95,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,347,81-15-2,CC1=C(C(=C(C(=C1[N+](=O)[O-])C(C)(C)C)[N+](=O)[O-])C)[N+](=O)[O-],384.65,747.2699999999999,-362.6199999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,381,530-43-8,CCCCCCCCCCCCCCCC(=O)OCC(C(C1=CC=C(C=C1)[N+](=O)[O-])O)NC(=O)C(Cl)Cl,363.15,797.18,-434.03,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,487,88-88-0,C1=C(C=C(C(=C1[N+](=O)[O-])Cl)[N+](=O)[O-])[N+](=O)[O-],355.15,682.1099999999999,-326.9599999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,491,113-92-8,CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2.C(=CC(=O)O)C(=O)O,405.65,782.8299999999999,-377.17999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,493,57-62-5,CC1(C2CC3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C(C=CC(=C41)Cl)O)O)O)O)C(=O)N)N(C)C)O,441.65,1210.36,-768.7099999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,510,477-27-0,CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)O)OC)OC)OC,451.65,805.51,-353.86,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,511,64-86-8,CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC,429.15,739.8100000000001,-310.6600000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,513,2411-89-4,CC1=CC(=CC(=C1O)CN(CC(=O)O)CC(=O)O)C2(C3=CC=CC=C3C(=O)O2)C4=CC(=C(C(=C4)C)O)CN(CC(=O)O)CC(=O)O,459.15,1614.25,-1155.1,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,530,506-78-5,C(#N)I,419.85,224.08,195.77,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,545,131-89-5,C1CCC(CC1)C2=C(C(=CC(=C2)[N+](=O)[O-])[N+](=O)[O-])O,378.65,682.78,-304.13,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,550,23185-94-6,CC1CC2C(C(C3(O2)CCC4C5CC=C6CC(CCC6(C5CC4=C3C)C)OC7C(C(C(C(O7)CO)O)O)O)C)NC1,541.15,1028.69,-487.5400000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,559,14930-96-2,CC1CCCC(C=CC(=O)OC23C(C=CC1)C(C(=C)C(C2C(NC3=O)CC4=CC=CC=C4)C)O)O,492.15,816.7499999999999,-324.5999999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,560,22144-77-0,CC1CC=CC2C(C(=C)C(C3C2(C(C=CC(C1=O)(C)O)OC(=O)C)C(=O)NC3CC4=CC=CC=C4)C)O,543.15,919.4199999999998,-376.26999999999987,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,563,20830-81-3,CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O,481.15,1249.6700000000003,-768.5200000000003,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,571,70-51-9,CC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCN)O)O)O,412.15,1089.61,-677.4599999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,609,85-79-0,CCCCOC1=NC2=CC=CC=C2C(=C1)C(=O)NCCN(CC)CC,337.15,628.1500000000001,-291.0000000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,701,568-02-5,C1=CC=C2C(=C1)C(=C3C4=C(C(=O)C(=O)C3=C2O)N=CC=C4)O,542.15,861.57,-319.4200000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,812,29091-05-2,CCN(CC)C1=C(C=C(C(=C1[N+](=O)[O-])N)C(F)(F)F)[N+](=O)[O-],372.45,697.3699999999999,-324.9199999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,857,88-85-7,CCC(C)C1=C(C(=CC(=C1)[N+](=O)[O-])[N+](=O)[O-])O,316.45,637.86,-321.41,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,884,3347-22-6,C1=CC=C2C(=C1)C(=O)C3=C(C2=O)SC(=C(S3)C#N)C#N,493.15,808.72,-315.57000000000005,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,896,23214-92-8,CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O,503.15,1310.4900000000002,-807.3400000000003,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,902,114-07-8,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,464.15,1082.8200000000002,-618.6700000000002,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,903,1264-62-6,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)OC(=O)CCC(=O)OCC)(C)O)C)C)O)(C)O,495.15,1174.2800000000002,-679.1300000000002,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,904,643-22-1,CCCCCCCCCCCCCCCCCC(=O)O.CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,365.15,1413.5399999999995,-1048.3899999999994,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,912,486-47-5,CCOC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OCC)OCC)OCC,373.15,668.84,-295.69000000000005,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,954,110-30-5,CCCCCCCCCCCCCCCCCC(=O)NCCNC(=O)CCCCCCCCCCCCCCCCC,422.15,723.2,-301.05000000000007,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,987,448-71-5,CCC1=C(C2=CC3=C(C(=C(N3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1N2)C)CC)C)CC)C)CC)C,635.15,1091.44,-456.2900000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,994,33245-39-5,CCCN(CCCl)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],320.85,642.78,-321.92999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1015,70-18-8,C(CC(=O)NC(CS)C(=O)NCC(=O)O)C(C(=O)O)N,468.15,818.56,-350.40999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1016,27025-41-8,C(CC(=O)NC(CSSCC(C(=O)NCC(=O)O)NC(=O)CCC(C(=O)O)N)C(=O)NCC(=O)O)C(C(=O)O)N,452.15,1543.2399999999998,-1091.0899999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1018,475-31-0,CC(CCC(=O)NCC(=O)O)C1CCC2C1(C(CC3C2C(CC4C3(CCC(C4)O)C)O)O)C,439.65,889.9499999999999,-450.29999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1019,1113-83-3,C1C(C(C(OC1(C(=O)O)O)C(C(CO)O)O)NC(=O)CO)O,459.15,856.9699999999999,-397.81999999999994,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1027,33229-34-4,C1=CC(=C(C=C1N(CCO)CCO)[N+](=O)[O-])NCCO,383.15,687.6600000000001,-304.5100000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1028,14459-29-1,CC1=C(C2=CC3=NC(=CC4=NC(=CC5=C(C(=C(N5)C=C1N2)C(C)O)C)C(=C4CCC(=O)O)C)C(=C3C)CCC(=O)O)C(C)O,445.65,1526.82,-1081.17,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1040,531-18-0,C(N(CO)C1=NC(=NC(=N1)N(CO)CO)N(CO)CO)O,410.15,919.6,-509.45000000000005,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1066,609-99-4,C1=C(C=C(C(=C1C(=O)O)O)[N+](=O)[O-])[N+](=O)[O-],455.15,779.65,-324.5,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1094,81334-34-1,CC(C)C1(C(=O)NC(=N1)C2=C(C=CC=N2)C(=O)O)C,444.15,785.22,-341.07000000000005,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1095,81335-37-7,CC(C)C1(C(=O)NC(=N1)C2=NC3=CC=CC=C3C=C2C(=O)O)C,494.15,875.52,-381.37,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1096,81335-77-5,CCC1=CC(=C(N=C1)C2=NC(C(=O)N2)(C)C(C)C)C(=O)O,446.15,820.28,-374.13,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1118,16034-77-8,CC(CN(C1=C(C=C(C(=C1I)N)I)I)C(=O)C)C(=O)O,498.15,786.9399999999998,-288.78999999999985,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1152,595-40-4,CCC(C)(C(=O)O)N,573.15,392.39,180.76,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1157,77501-63-4,CCOC(=O)C(C)OC(=O)C1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-],366.15,676.4199999999998,-310.26999999999987,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1158,328-39-2,CC(C)CC(C(=O)O)N,566.15,371.24,194.90999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1159,328-38-1,CC(C)CC(C(=O)O)N,566.15,371.24,194.90999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1160,61-90-5,CC(C)CC(C(=O)O)N,566.15,371.24,194.90999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1172,120-78-5,C1=CC=C2C(=C1)N=C(S2)SSC3=NC4=CC=CC=C4S3,453.15,775.1200000000001,-321.97000000000014,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1210,606-35-9,COC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],340.75,685.6899999999999,-344.93999999999994,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1367,479-45-8,CN(C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],401.15,839.54,-438.39,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1375,56392-17-7,CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.C(C(C(=O)O)O)(C(=O)O)O,394.15,1154.06,-759.91,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1377,84371-65-3,CC#CC1(CCC2C1(CC(C3=C4CCC(=O)C=C4CCC23)C5=CC=C(C=C5)N(C)C)C)O,423.15,859.9399999999999,-436.78999999999996,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1397,131-28-2,CN(C)CCC1=CC2=C(C(=C1CC(=O)C3=C(C(=C(C=C3)OC)OC)C(=O)O)OC)OCO2,411.15,874.46,-463.31000000000006,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1519,76963-41-2,CNC(=C[N+](=O)[O-])NCCSCC1=CSC(=N1)CN(C)C,404.15,718.45,-314.30000000000007,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1522,991-42-4,C1=CC=C(C=C1)C(=C2C3C=C(C2C4C3C(=O)NC4=O)C(C5=CC=CC=C5)(C6=CC=CC=N6)O)C7=CC=CC=N7,467.15,1070.88,-603.7300000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1527,760-78-1,CCCC(C(=O)O)N,576.15,374.97,201.17999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1528,6600-40-4,CCCC(C(=O)O)N,580.15,374.97,205.17999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1529,303-81-1,CC1=C(C=CC2=C1OC(=O)C(=C2O)NC(=O)C3=CC(=C(C=C3)O)CC=C(C)C)OC4C(C(C(C(O4)(C)C)OC)OC(=O)N)O,427.15,1202.11,-774.9599999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1532,303-47-9,CC1CC2=C(C=C(C(=C2C(=O)O1)O)C(=O)NC(CC3=CC=CC=C3)C(=O)O)Cl,442.15,859.1799999999998,-417.02999999999986,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1533,4825-86-9,CC1CC2=C(C(=C(C=C2)C(=O)NC(CC3=CC=CC=C3)C(=O)O)O)C(=O)O1,494.15,816.7399999999999,-322.5899999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1552,471-46-5,C(=O)(C(=O)N)N,572.15,378.68,193.46999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1563,79-57-2,CC1(C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O)O,457.65,1224.5,-766.85,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1566,40487-42-1,CCC(CC)NC1=C(C=C(C(=C1[N+](=O)[O-])C)C)[N+](=O)[O-],327.85,637.6500000000001,-309.80000000000007,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1578,67-43-6,C(CN(CC(=O)O)CC(=O)O)N(CCN(CC(=O)O)CC(=O)O)CC(=O)O,492.15,1147.95,-655.8000000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1582,81-33-4,C1=CC2=C3C(=CC=C4C3=C1C5=C6C4=CC=C7C6=C(C=C5)C(=O)NC7=O)C(=O)NC2=O,513.15,1138.6799999999998,-625.5299999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1638,396-01-0,C1=CC=C(C=C1)C2=NC3=C(N=C(N=C3N=C2N)N)N,589.15,896.5600000000002,-307.4100000000002,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1656,498-94-2,C1CNCCC1C(=O)O,609.15,430.39,178.76,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1668,29091-21-2,CCCN(CCC)C1=C(C=C(C(=C1[N+](=O)[O-])N)C(F)(F)F)[N+](=O)[O-],397.15,719.91,-322.76,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1669,26399-36-0,CCCN(CC1CC1)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],307.95,653.3399999999999,-345.38999999999993,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1703,55512-33-9,CCCCCCCCSC(=O)OC1=CC(=NN=C1C2=CC=CC=C2)Cl,300.15,631.5,-331.35,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1717,55-22-1,C1=CN=CC=C1C(=O)O,591.15,415.94,175.20999999999998,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1755,83-89-6,CCN(CC)CCCC(C)NC1=C2C=C(C=CC2=NC3=C1C=CC(=C3)Cl)OC,360.15,684.69,-324.5400000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1776,76578-14-8,CCOC(=O)C(C)OC1=CC=C(C=C1)OC2=CN=C3C=C(C=CC3=N2)Cl,366.15,671.78,-305.63,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1789,1361-49-5,CC1=C2C(C(=O)C3(CC(=CC(C(C2(C)C)CC1OC(=O)C)OC(=O)C)C(CC3O)OC(=O)C(C(C4=CC=CC=C4)N(C)C)O)C)O,478.15,985.63,-507.48,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1790,33069-62-4,CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,488.15,1367.99,-879.84,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1830,509-14-8,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],287.04999999999995,677.89,-390.84000000000003,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1842,51-48-9,C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)CC(C(=O)O)N,508.15,969.3,-461.15,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1844,17406-45-0,CC1CCC2(C(C3C(O2)CC4C3(CCC5C4CCC6C5(CCC(C6)OC7C(C(C(C(O7)CO)OC8C(C(C(C(O8)CO)O)OC9C(C(C(CO9)O)O)O)OC2C(C(C(C(O2)CO)O)O)O)O)O)C)C)C)NC1,543.15,1805.08,-1261.9299999999998,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1887,1582-09-8,CCCN(CCC)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],322.75,624.1299999999999,-301.3799999999999,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1902,630-72-8,C(#N)C([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],318.15,610.54,-292.39,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1905,82-71-3,C1=C(C(=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])O)[N+](=O)[O-],451.15,863.11,-411.96000000000004,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1906,129-66-8,C1=C(C=C(C(=C1[N+](=O)[O-])C(=O)O)[N+](=O)[O-])[N+](=O)[O-],502.15,824.0600000000001,-321.9100000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1907,129-79-3,C1=CC2=C(C=C1[N+](=O)[O-])C(=O)C3=C2C(=CC(=C3)[N+](=O)[O-])[N+](=O)[O-],448.95,879.98,-431.03000000000003,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1909,88-89-1,C1=C(C=C(C(=C1[N+](=O)[O-])O)[N+](=O)[O-])[N+](=O)[O-],394.15,751.39,-357.24,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1910,118-96-7,CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],354.04999999999995,663.4599999999999,-309.40999999999997,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1911,131-73-7,C1=C(C=C(C(=C1[N+](=O)[O-])NC2=C(C=C(C=C2[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-],524.25,1267.28,-743.03,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1919,1017-56-7,C(NC1=NC(=NC(=N1)NCO)NCO)O,421.15,763.9000000000001,-342.7500000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1921,3682-35-7,C1=CC=NC(=C1)C2=NC(=NC(=N2)C3=CC=CC=N3)C4=CC=CC=N4,483.15,852.58,-369.43000000000006,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1931,72-18-4,CC(C)C(C(=O)O)N,588.15,359.97,228.17999999999995,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1932,2001-95-8,CC1C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)OC(C(=O)NC(C(=O)O1)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C)C)C(C)C)C(C)C)C(C)C,460.15,1754.2,-1294.0500000000002,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tm,1937,84-55-9,COC1=CC2=C(C=CN=C2C=C1)C(=O)CCC3CCNCC3C=C,333.15,649.4300000000001,-316.2800000000001,GC error outside the 1.5 x IQR fences,"fences [-287.245, 174.555]"
+Tc,3,90-41-5,C1=CC=C(C=C1)C2=CC=CC=C2N,838.0,864.1014361939148,-26.101436193914765,Experimental value outside the accepted range,"range [0, 800]"
+Tc,42,119-65-3,C1=CC=C2C=NC=CC2=C1,803.0,757.7796881032957,45.22031189670429,Experimental value outside the accepted range,"range [0, 800]"
+Tc,15,460-19-5,C(#N)C#N,397.0,671.0381876738202,-274.0381876738202,GC error outside the 1.5 x IQR fences,"fences [-84.525, 77.748]"
+Tc,34,141-43-5,C(CO)N,671.0,588.4348720105723,82.56512798942765,GC error outside the 1.5 x IQR fences,"fences [-84.525, 77.748]"
+Tc,72,353-85-5,C(#N)C(F)(F)F,311.1,516.3066056329319,-205.20660563293188,GC error outside the 1.5 x IQR fences,"fences [-84.525, 77.748]"
+Hvap,11,460-19-5,C(#N)C#N,23.33,41.002,-17.672000000000004,GC error outside the 1.5 x IQR fences,"fences [-7.647, 5.120]"
+Hvap,44,105-34-0,COC(=O)CC#N,48.2,42.383,5.817,GC error outside the 1.5 x IQR fences,"fences [-7.647, 5.120]"
+Hvap,64,109-97-7,C1=CNC=C1,38.75,32.406000000000006,6.343999999999994,GC error outside the 1.5 x IQR fences,"fences [-7.647, 5.120]"
+Hvap,68,509-14-8,C([N+](=O)[O-])([N+](=O)[O-])([N+](=O)[O-])[N+](=O)[O-],40.74,82.88799999999999,-42.14799999999999,GC error outside the 1.5 x IQR fences,"fences [-7.647, 5.120]"
+Hvap,74,311-89-7,C(C(C(F)(F)F)(F)F)(C(N(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F,46.4,6.738,39.662,GC error outside the 1.5 x IQR fences,"fences [-7.647, 5.120]"
+logP,200,627-26-9,CC=CC#N,0.8,1.08608,-0.2860799999999999,Duplicate structure,same structure as input row 199 (CC=CC#N); experimental values differ by 0
+logP,464,299-42-3,CC(C(C1=CC=CC=C1)O)NC,0.9,1.3279,-0.42790000000000006,Duplicate structure,same structure as input row 463 (CC(C(C1=CC=CC=C1)O)NC); experimental values differ by 0
+logP,811,1885-38-7,C1=CC=C(C=C1)C=CC#N,2.0,2.2233800000000006,-0.22338000000000058,Duplicate structure,same structure as input row 810 (C1=CC=C(C=C1)C=CC#N); experimental values differ by 0
+logP,813,51-64-9,CC(CC1=CC=CC=C1)N,1.8,1.5763,0.2237,Duplicate structure,same structure as input row 812 (CC(CC1=CC=CC=C1)N); experimental values differ by 0
+logP,2208,,OCCN(CCO)CCO,-1.0,-1.734699999999999,0.734699999999999,Duplicate structure,same structure as input row 939 (C(CO)N(CCO)CCO); experimental values differ by 0
+logP,2209,,Nc1ccc(cc1)[N+]([O-])=O,1.4,1.177,0.22299999999999986,Duplicate structure,same structure as input row 734 (C1=CC(=CC=C1N)[N+](=O)[O-]); experimental values differ by 0
+logP,2211,,NCc1ccccc1,1.1,1.1453,-0.045299999999999896,Duplicate structure,same structure as input row 154 (C1=CC=C(C=C1)CN); experimental values differ by 0
+logP,2212,,ONc1ccccc1,0.8,1.4876999999999998,-0.6876999999999998,Duplicate structure,same structure as input row 2026 (C1=CC=C(C=C1)NO); experimental values differ by 0
+logP,2241,,CCOc1ccc(NC(N)=O)cc1,1.0,1.5759,-0.5759000000000001,Duplicate structure,same structure as input row 1593 (CCOC1=CC=C(C=C1)NC(=O)N); experimental values differ by 0
+logP,2255,,CN(C)c1ccc(cc1)C(=O)c2ccccc2,3.5,2.983600000000002,0.5163999999999982,Duplicate structure,same structure as input row 1479 (CN(C)C1=CC=C(C=C1)C(=O)C2=CC=CC=C2); experimental values differ by 0
+logP,2263,,CCC(=O)c1ccc(N)cc1,1.7,1.8615,-0.16149999999999998,Duplicate structure,same structure as input row 1081 (CCC(=O)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,2264,,CC(O)CN(C)C,0.0,-0.0711999999999999,0.0711999999999999,Duplicate structure,same structure as input row 378 (CC(CN(C)C)O); experimental values differ by 0
+logP,2265,,CNc1cccc2C(=O)c3ccccc3C(=O)c12,3.9,2.5037000000000003,1.3962999999999997,Duplicate structure,same structure as input row 1785 (CNC1=CC=CC2=C1C(=O)C3=CC=CC=C3C2=O); experimental values differ by 0
+logP,2295,,Nc1ccc(cc1)c2ccccc2,2.9,2.9358000000000013,-0.035800000000001386,Duplicate structure,same structure as input row 119 (C1=CC=C(C=C1)C2=CC=C(C=C2)N); experimental values differ by 0
+logP,2296,,CCOC(OCC)N(C)C,1.0,0.9046,0.09540000000000004,Duplicate structure,same structure as input row 326 (CCOC(N(C)C)OCC); experimental values differ by 0
+logP,2307,,CC(O)CNCC(C)O,-0.8,-0.6623999999999999,-0.13760000000000017,Duplicate structure,same structure as input row 366 (CC(CNCC(C)O)O); experimental values differ by 0
+logP,2310,,Nc1ccccc1N,0.1,0.851,-0.751,Duplicate structure,same structure as input row 137 (C1=CC=C(C(=C1)N)N); experimental values differ by 0
+logP,2311,,NC(=O)c1ccccc1C(N)=O,-1.7,-0.1155999999999998,-1.5844000000000003,Duplicate structure,same structure as input row 1122 (C1=CC=C(C(=C1)C(=O)N)C(=O)N); experimental values differ by 0
+logP,2313,,NC1CCCCC1N,-0.3,0.2149999999999999,-0.5149999999999999,Duplicate structure,same structure as input row 1343 (C1CCC(C(C1)N)N); experimental values differ by 0
+logP,2314,,NCCN,-2.0,-1.0962,-0.9037999999999999,Duplicate structure,same structure as input row 28 (C(CN)N); experimental values differ by 0
+logP,2316,,CC(N)CN,-1.2,-0.7077,-0.49229999999999996,Duplicate structure,same structure as input row 831 (CC(CN)N); experimental values differ by 0
+logP,2317,,Nc1nc(N)nc(N)n1,-1.4,-1.3818,-0.018199999999999994,Duplicate structure,same structure as input row 2155 (C1(=NC(=NC(=N1)N)N)N); experimental values differ by 0
+logP,2318,,Nc1cccc(N)c1,-0.3,0.851,-1.151,Duplicate structure,same structure as input row 138 (C1=CC(=CC(=C1)N)N); experimental values differ by 0
+logP,2319,,NCc1cccc(CN)c1,-0.3,0.604,-0.9039999999999999,Duplicate structure,same structure as input row 140 (C1=CC(=CC(=C1)CN)CN); experimental values differ by 0
+logP,2320,,NCC1CCCC(CN)C1,0.2,0.7102,-0.5102,Duplicate structure,same structure as input row 286 (C1CC(CC(C1)CN)CN); experimental values differ by 0
+logP,2328,,NCCCN,-1.4,-0.7060999999999997,-0.6939000000000002,Duplicate structure,same structure as input row 59 (C(CN)CN); experimental values differ by 0
+logP,2329,,Nc1ccc(N)cc1,-0.3,0.8510000000000002,-1.1510000000000002,Duplicate structure,same structure as input row 139 (C1=CC(=CC=C1N)N); experimental values differ by 0
+logP,2330,,NCCCCN,-0.9,-0.3159999999999998,-0.5840000000000003,Duplicate structure,same structure as input row 81 (C(CCN)CN); experimental values differ by 0
+logP,2331,,Nc1ccc(N)c2C(=O)c3ccccc3C(=O)c12,2.6,1.6264,0.9736,Duplicate structure,same structure as input row 1373 (C1=CC=C2C(=C1)C(=O)C3=C(C=CC(=C3C2=O)N)N); experimental values differ by 0
+logP,2334,,Nc1cccc2c(N)cccc12,2.1,2.0042,0.09580000000000011,Duplicate structure,same structure as input row 1862 (C1=CC2=C(C=CC=C2N)C(=C1)N); experimental values differ by 0
+logP,2335,,NCCCCCN,-0.6,0.0741000000000001,-0.6741,Duplicate structure,same structure as input row 783 (C(CCN)CCN); experimental values differ by 0
+logP,2336,,NCCCCCCN,-0.2,0.4642,-0.6642,Duplicate structure,same structure as input row 89 (C(CCCN)CCN); experimental values differ by 0
+logP,2337,,NCCCCCCCN,0.3,0.8543000000000001,-0.5543,Duplicate structure,same structure as input row 552 (C(CCCN)CCCN); experimental values differ by 0
+logP,2338,,Nc1cccc2cccc(N)c12,2.1,2.0042,0.09580000000000011,Duplicate structure,same structure as input row 1863 (C1=CC2=C(C(=C1)N)C(=CC=C2)N); experimental values differ by 0
+logP,2339,,NCCCCCCCCN,0.9,1.2444000000000002,-0.34440000000000015,Duplicate structure,same structure as input row 95 (C(CCCCN)CCCN); experimental values differ by 0
+logP,2342,,CN(C)c1ccc(cc1)C(C)=O,2.1,1.9552,0.14480000000000004,Duplicate structure,same structure as input row 1470 (CC(=O)C1=CC=C(C=C1)N(C)C); experimental values differ by 0
+logP,2344,,CC(O)CN,-1.0,-0.6741000000000001,-0.32589999999999986,Duplicate structure,same structure as input row 132 (CC(CN)O); experimental values differ by 0
+logP,2345,,Nc1ccc(O)c2C(=O)c3ccccc3C(=O)c12,3.4,1.7498,1.6502,Duplicate structure,same structure as input row 1045 (C1=CC=C2C(=C1)C(=O)C3=C(C=CC(=C3C2=O)O)N); experimental values differ by 0
+logP,2346,,Nc1cccc2C(=O)c3ccccc3C(=O)c12,3.2,2.0442,1.1558000000000002,Duplicate structure,same structure as input row 1006 (C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=CC=C3)N); experimental values differ by 0
+logP,2368,,Nc1[nH]c2ccccc2n1,0.9,1.1451,-0.24509999999999998,Duplicate structure,same structure as input row 1125 (C1=CC=C2C(=C1)NC(=N2)N); experimental values differ by 0
+logP,2370,,O=C1Nc2ccccc2C1=O,0.8,0.8213999999999999,-0.021399999999999864,Duplicate structure,same structure as input row 1713 (C1=CC=C2C(=C1)C(=O)C(=O)N2); experimental values differ by 0
+logP,2371,,Nc1cccc2c1C(=O)NC2=O,0.6,0.1523999999999999,0.4476000000000001,Duplicate structure,same structure as input row 1053 (C1=CC2=C(C(=C1)N)C(=O)NC2=O); experimental values differ by 0
+logP,2372,,Nc1[nH]c(N)c2ncnc2n1,-0.9,-0.5311000000000006,-0.36889999999999945,Duplicate structure,same structure as input row 2066 (C1=NC2=NC(=NC(=C2N1)N)N); experimental values differ by 0
+logP,2375,,Nc1nccc2ccccc12,1.9,1.817,0.08299999999999996,Duplicate structure,same structure as input row 1739 (C1=CC=C2C(=C1)C=CN=C2N); experimental values differ by 0
+logP,2378,,COCC(C)N,-0.4,-0.0199999999999996,-0.38000000000000045,Duplicate structure,same structure as input row 601 (CC(COC)N); experimental values differ by 0
+logP,2390,,Nc1c2ccccc2ccc1,2.2,2.4220000000000006,-0.22200000000000042,Duplicate structure,same structure as input row 728 (C1=CC=C2C(=C1)C=CC=C2N); experimental values differ by 0
+logP,2394,,CC(N)c1ccccc1,1.2,1.7063,-0.5063,Duplicate structure,same structure as input row 637 (CC(C1=CC=CC=C1)N); experimental values differ by 0
+logP,2397,,O=C1Nc2ccccc2C=C1,1.3,1.5281,-0.22809999999999997,Duplicate structure,same structure as input row 2107 (C1=CC=C2C(=C1)C=CC(=O)N2); experimental values differ by 0
+logP,2398,,CC(C)c1ccccc1N,2.1,2.3922,-0.2921999999999998,Duplicate structure,same structure as input row 579 (CC(C)C1=CC=CC=C1N); experimental values differ by 0
+logP,2399,,NCCOCCO,-1.5,-1.0460000000000005,-0.4539999999999995,Duplicate structure,same structure as input row 77 (C(COCCO)N); experimental values differ by 0
+logP,2400,,NCCNCCO,-1.7,-1.4729999999999996,-0.2270000000000003,Duplicate structure,same structure as input row 78 (C(CNCCO)N); experimental values differ by 0
+logP,2401,,NCCc1ccccn1,0.1,0.5827999999999998,-0.4827999999999998,Duplicate structure,same structure as input row 853 (C1=CC=NC(=C1)CCN); experimental values differ by 0
+logP,2402,,Cc1ccccc1NCCO,1.5,1.39922,0.10078000000000009,Duplicate structure,same structure as input row 687 (CC1=CC=CC=C1NCCO); experimental values differ by 0
+logP,2403,,CN(C)c1ccccc1C(O)=O,1.7,1.4508,0.24919999999999987,Duplicate structure,same structure as input row 1471 (CN(C)C1=CC=CC=C1C(=O)O); experimental values differ by 0
+logP,2406,,CNc1ccccc1C(O)=O,2.0,1.4265,0.5734999999999999,Duplicate structure,same structure as input row 1787 (CNC1=CC=CC=C1C(=O)O); experimental values differ by 0
+logP,2407,,COC(=O)c1ccccc1NC,2.3,1.5149,0.7850999999999999,Duplicate structure,same structure as input row 670 (CNC1=CC=CC=C1C(=O)OC); experimental values differ by 0
+logP,2410,,Nc1ccccc1C(F)(F)F,2.4,2.2876000000000003,0.11239999999999961,Duplicate structure,same structure as input row 2166 (C1=CC=C(C(=C1)C(F)(F)F)N); experimental values differ by 0
+logP,2413,,NC(=O)C(F)(F)F,0.1,0.0340000000000001,0.0659999999999999,Duplicate structure,same structure as input row 940 (C(=O)(C(F)(F)F)N); experimental values differ by 0
+logP,2414,,NCC(F)(F)F,0.2,0.5074,-0.30739999999999995,Duplicate structure,same structure as input row 941 (C(C(F)(F)F)N); experimental values differ by 0
+logP,2425,,NC(=O)C(Br)(Br)C#N,0.6,0.48138,0.11862,Duplicate structure,same structure as input row 1395 (C(#N)C(C(=O)N)(Br)Br); experimental values differ by 0
+logP,2426,,NC(=O)C(Cl)Cl,0.2,0.2754,-0.07539999999999997,Duplicate structure,same structure as input row 306 (C(C(=O)N)(Cl)Cl); experimental values differ by 0
+logP,2444,,Nc1c(F)c(F)c(F)c(F)c1F,1.7,1.9643,-0.2643,Duplicate structure,same structure as input row 779 (C1(=C(C(=C(C(=C1F)F)F)F)F)N); experimental values differ by 0
+logP,2447,,Nc1ccc(Cl)c(Cl)c1Cl,3.7,3.229,0.4710000000000001,Duplicate structure,same structure as input row 929 (C1=CC(=C(C(=C1N)Cl)Cl)Cl); experimental values differ by 0
+logP,2449,,Cc1cccc(N)c1N,0.9,1.15942,-0.2594199999999999,Duplicate structure,same structure as input row 621 (CC1=C(C(=CC=C1)N)N); experimental values differ by 0
+logP,2450,,Nc1cccc(Cl)c1Cl,2.9,2.575600000000001,0.3243999999999989,Duplicate structure,same structure as input row 308 (C1=CC(=C(C(=C1)Cl)Cl)N); experimental values differ by 0
+logP,2453,,Nc1cc2ccccc2cc1N,1.9,2.0042,-0.10420000000000007,Duplicate structure,same structure as input row 1864 (C1=CC=C2C=C(C(=CC2=C1)N)N); experimental values differ by 0
+logP,2454,,Cc1cccc(N)c1C,2.3,1.88564,0.41435999999999984,Duplicate structure,same structure as input row 380 (CC1=C(C(=CC=C1)N)C); experimental values differ by 0
+logP,2455,,Cc1cc(C)c(N)cc1C,2.3,2.1940600000000003,0.10593999999999948,Duplicate structure,same structure as input row 947 (CC1=CC(=C(C=C1C)N)C); experimental values differ by 0
+logP,2456,,Nc1c(Br)cc(Br)cc1Br,3.3,3.5563,-0.2563,Duplicate structure,same structure as input row 926 (C1=C(C=C(C(=C1Br)N)Br)Br); experimental values differ by 0
+logP,2457,,Cc1cc(C)c(N)c(C)c1,2.3,2.1940600000000003,0.10593999999999948,Duplicate structure,same structure as input row 948 (CC1=CC(=C(C(=C1)C)N)C); experimental values differ by 0
+logP,2460,,COc1ccc(N)cc1N,0.5,0.8595999999999999,-0.3595999999999999,Duplicate structure,same structure as input row 1767 (COC1=C(C=C(C=C1)N)N); experimental values differ by 0
+logP,2463,,Nc1ccc(Cl)cc1Cl,2.9,2.575600000000001,0.3243999999999989,Duplicate structure,same structure as input row 309 (C1=CC(=C(C=C1Cl)Cl)N); experimental values differ by 0
+logP,2464,,Nc1ccc(F)cc1F,1.5,1.547,-0.04699999999999993,Duplicate structure,same structure as input row 353 (C1=CC(=C(C=C1F)F)N); experimental values differ by 0
+logP,2465,,Cc1ccc(N)c(C)c1,1.7,1.88564,-0.18564000000000003,Duplicate structure,same structure as input row 381 (CC1=CC(=C(C=C1)N)C); experimental values differ by 0
+logP,2466,,O=N(=O)c(ccc1Nc2ccccc2)cc1N(=O)=O,3.5,3.246600000000001,0.2533999999999992,Duplicate structure,same structure as input row 1538 (C1=CC=C(C=C1)NC2=C(C=C(C=C2)[N+](=O)[O-])[N+](=O)[O-]); experimental values differ by 0
+logP,2467,,Nc1ccc(N)nc1,-0.2,0.2460000000000001,-0.4460000000000001,Duplicate structure,same structure as input row 2079 (C1=CC(=NC=C1N)N); experimental values differ by 0
+logP,2468,,Nc1cc(Cl)ccc1Cl,2.9,2.575600000000001,0.3243999999999989,Duplicate structure,same structure as input row 310 (C1=CC(=C(C=C1Cl)N)Cl); experimental values differ by 0
+logP,2470,,COc1ccc(OC)c(N)c1,1.2,1.286,-0.08600000000000008,Duplicate structure,same structure as input row 369 (COC1=CC(=C(C=C1)OC)N); experimental values differ by 0
+logP,2472,,Cc1ccc(C)c(N)c1,1.8,1.88564,-0.08563999999999994,Duplicate structure,same structure as input row 382 (CC1=CC(=C(C=C1)C)N); experimental values differ by 0
+logP,2473,,Nc1c(Cl)cccc1Cl,2.8,2.575600000000001,0.22439999999999882,Duplicate structure,same structure as input row 1402 (C1=CC(=C(C(=C1)Cl)N)Cl); experimental values differ by 0
+logP,2474,,NC(=O)c1c(Cl)cccc1Cl,0.8,2.0923,-1.2922999999999998,Duplicate structure,same structure as input row 1403 (C1=CC(=C(C(=C1)Cl)C(=O)N)Cl); experimental values differ by 0
+logP,2475,,CCc1cccc(CC)c1N,2.7,2.3936,0.3064,Duplicate structure,same structure as input row 334 (CCC1=C(C(=CC=C1)CC)N); experimental values differ by 0
+logP,2476,,CC(C)c1cccc(C(C)C)c1N,3.2,3.515600000000001,-0.31560000000000077,Duplicate structure,same structure as input row 367 (CC(C)C1=C(C(=CC=C1)C(C)C)N); experimental values differ by 0
+logP,2481,,Nc1cccc(N)n1,0.2,0.2459999999999998,-0.04599999999999979,Duplicate structure,same structure as input row 852 (C1=CC(=NC(=C1)N)N); experimental values differ by 0
+logP,2482,,Cc1cccc(C)c1N,1.8,1.88564,-0.08563999999999994,Duplicate structure,same structure as input row 383 (CC1=C(C(=CC=C1)C)N); experimental values differ by 0
+logP,2484,,OCCOCCN(CC)CC,0.2,0.3370999999999999,-0.1370999999999999,Duplicate structure,same structure as input row 330 (CCN(CC)CCOCCO); experimental values differ by 0
+logP,2488,,CCC(N)CO,-0.4,-0.2840000000000001,-0.11599999999999994,Duplicate structure,same structure as input row 120 (CCC(CO)N); experimental values differ by 0
+logP,2491,,CCC(N)(CO)CO,-1.3,-0.9215000000000002,-0.37849999999999984,Duplicate structure,same structure as input row 1042 (CCC(CO)(CO)N); experimental values differ by 0
+logP,2493,,CC(N)(CO)CO,-1.8,-1.3116,-0.48839999999999995,Duplicate structure,same structure as input row 1060 (CC(CO)(CO)N); experimental values differ by 0
+logP,2494,,CC(C)(N)CO,-0.8,-0.2840000000000001,-0.516,Duplicate structure,same structure as input row 2 (CC(C)(CO)N); experimental values differ by 0
+logP,2497,,Cc1cc(C)nc(N)n1,0.7,0.6756399999999999,0.02436000000000005,Duplicate structure,same structure as input row 1499 (CC1=CC(=NC(=N1)N)C); experimental values differ by 0
+logP,2499,,Nc1cc(Cl)ccc1O,1.8,1.6278,0.17220000000000013,Duplicate structure,same structure as input row 1029 (C1=CC(=C(C=C1Cl)N)O); experimental values differ by 0
+logP,2501,,Cc1ccc(O)c(N)c1,1.2,1.2828199999999998,-0.0828199999999999,Duplicate structure,same structure as input row 1057 (CC1=CC(=C(C=C1)O)N); experimental values differ by 0
+logP,2502,,Nc1ccc(cc1N)[N+]([O-])=O,0.9,0.7591999999999999,0.14080000000000015,Duplicate structure,same structure as input row 1887 (C1=CC(=C(C=C1[N+](=O)[O-])N)N); experimental values differ by 0
+logP,2503,,Nc1cc(ccc1O)[N+]([O-])=O,1.5,0.8825999999999998,0.6174000000000002,Duplicate structure,same structure as input row 1070 (C1=CC(=C(C=C1[N+](=O)[O-])N)O); experimental values differ by 0
+logP,2508,,Nc1ccc2C(=O)c3ccccc3C(=O)c2c1,2.7,2.0442,0.6558000000000002,Duplicate structure,same structure as input row 1007 (C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C=C(C=C3)N); experimental values differ by 0
+logP,2511,,Nc1ccc2cc3ccccc3cc2c1,3.5,3.575200000000001,-0.07520000000000104,Duplicate structure,same structure as input row 1101 (C1=CC=C2C=C3C=C(C=CC3=CC2=C1)N); experimental values differ by 0
+logP,2513,,Nc1ccccc1CO,1.1,0.7610999999999999,0.3389000000000002,Duplicate structure,same structure as input row 115 (C1=CC=C(C(=C1)CO)N); experimental values differ by 0
+logP,2514,,Nc1ccccc1S,1.4,1.5575,-0.1575000000000002,Duplicate structure,same structure as input row 116 (C1=CC=C(C(=C1)N)S); experimental values differ by 0
+logP,2515,,Nc1ccccc1C(O)=O,1.2,0.967,0.23299999999999998,Duplicate structure,same structure as input row 1097 (C1=CC=C(C(=C1)C(=O)O)N); experimental values differ by 0
+logP,2516,,COC(=O)c1ccccc1N,1.9,1.0554,0.8446,Duplicate structure,same structure as input row 614 (COC(=O)C1=CC=CC=C1N); experimental values differ by 0
+logP,2517,,Nc1ccccc1C#N,1.4,1.1404800000000002,0.25951999999999975,Duplicate structure,same structure as input row 117 (C1=CC=C(C(=C1)C#N)N); experimental values differ by 0
+logP,2518,,Nc1sc2ccccc2n1,1.9,1.8785,0.021499999999999853,Duplicate structure,same structure as input row 1130 (C1=CC=C2C(=C1)N=C(S2)N); experimental values differ by 0
+logP,2519,,NCCS,-0.4,-0.1250999999999998,-0.27490000000000026,Duplicate structure,same structure as input row 1356 (C(CS)N); experimental values differ by 0
+logP,2522,,CCCC(N)C(O)=O,-2.1,0.1983999999999999,-2.2984,Duplicate structure,same structure as input row 1962 (CCCC(C(=O)O)N); experimental values differ by 0
+logP,2523,,Nc1ccccc1O,0.6,0.9744,-0.37440000000000007,Duplicate structure,same structure as input row 124 (C1=CC=C(C(=C1)N)O); experimental values differ by 0
+logP,2524,,CC(N)CO,-1.0,-0.6741000000000001,-0.32589999999999986,Duplicate structure,same structure as input row 130 (CC(CO)N); experimental values differ by 0
+logP,2526,,Nc1ccccn1,0.5,0.6638000000000001,-0.16380000000000006,Duplicate structure,same structure as input row 2071 (C1=CC=NC(=C1)N); experimental values differ by 0
+logP,2527,,Nc1ncccn1,-0.2,0.0588,-0.25880000000000003,Duplicate structure,same structure as input row 866 (C1=CN=C(N=C1)N); experimental values differ by 0
+logP,2528,,Nc1ccc2ccccc2n1,1.9,1.817,0.08299999999999996,Duplicate structure,same structure as input row 2100 (C1=CC=C2C(=C1)C=CC(=N2)N); experimental values differ by 0
+logP,2529,,OCCNc1ccccc1,0.8,1.0908,-0.29079999999999995,Duplicate structure,same structure as input row 803 (C1=CC=C(C=C1)NCCO); experimental values differ by 0
+logP,2532,,O=C1Nc2ccccc2O1,1.2,1.1211,0.07889999999999997,Duplicate structure,same structure as input row 152 (C1=CC=C2C(=C1)NC(=O)O2); experimental values differ by 0
+logP,2533,,Nc1ccccc1Br,2.1,2.0313,0.0687000000000002,Duplicate structure,same structure as input row 177 (C1=CC=C(C(=C1)N)Br); experimental values differ by 0
+logP,2542,,Cc1ccc(N)c(Cl)c1,1.9,2.23062,-0.33062000000000014,Duplicate structure,same structure as input row 244 (CC1=CC(=C(C=C1)N)Cl); experimental values differ by 0
+logP,2544,,NC(=O)CCl,-0.5,-0.2895000000000001,-0.2104999999999999,Duplicate structure,same structure as input row 222 (C(C(=O)N)Cl); experimental values differ by 0
+logP,2546,,Nc1ccccc1Cl,1.9,1.9222,-0.022199999999999998,Duplicate structure,same structure as input row 10 (C1=CC=C(C(=C1)N)Cl); experimental values differ by 0
+logP,2547,,NC(=O)c1ccccc1Cl,0.6,1.4389,-0.8389000000000001,Duplicate structure,same structure as input row 1246 (C1=CC=C(C(=C1)C(=O)N)Cl); experimental values differ by 0
+logP,2554,,NC(=O)CC#N,-1.0,-0.6146200000000002,-0.38537999999999983,Duplicate structure,same structure as input row 1330 (C(C#N)C(=O)N); experimental values differ by 0
+logP,2555,,CCOc1ccccc1N,1.5,1.6675,-0.16749999999999998,Duplicate structure,same structure as input row 465 (CCOC1=CC=CC=C1N); experimental values differ by 0
+logP,2556,,CCOc1ccccc1C(N)=O,1.2,1.1842,0.015800000000000036,Duplicate structure,same structure as input row 1587 (CCOC1=CC=CC=C1C(=O)N); experimental values differ by 0
+logP,2559,,CCc1ccccc1N,1.7,1.8312,-0.13119999999999998,Duplicate structure,same structure as input row 481 (CCC1=CC=CC=C1N); experimental values differ by 0
+logP,2563,,NC(=O)CF,-1.0,-0.5588000000000002,-0.4411999999999998,Duplicate structure,same structure as input row 1629 (C(C(=O)N)F); experimental values differ by 0
+logP,2578,,Nc1ccccc1I,2.3,1.8734,0.42659999999999987,Duplicate structure,same structure as input row 1722 (C1=CC=C(C(=C1)N)I); experimental values differ by 0
+logP,2585,,COc1ccc(C)cc1N,1.7,1.58582,0.11417999999999995,Duplicate structure,same structure as input row 603 (CC1=CC(=C(C=C1)OC)N); experimental values differ by 0
+logP,2589,,Cc1c(N)cccc1N,0.9,1.15942,-0.2594199999999999,Duplicate structure,same structure as input row 1795 (CC1=C(C=CC=C1N)N); experimental values differ by 0
+logP,2590,,Cc1cc(N)ccc1N,0.6,1.15942,-0.5594199999999999,Duplicate structure,same structure as input row 623 (CC1=C(C=CC(=C1)N)N); experimental values differ by 0
+logP,2591,,CC(=C)C(N)=O,0.1,0.0478000000000001,0.052199999999999906,Duplicate structure,same structure as input row 1839 (CC(=C)C(=O)N); experimental values differ by 0
+logP,2592,,CC(C)(N)C#C,0.0,0.3569000000000001,-0.3569000000000001,Duplicate structure,same structure as input row 644 (CC(C)(C#C)N); experimental values differ by 0
+logP,2593,,Cc1c(N)cccc1Cl,3.0,2.23062,0.76938,Duplicate structure,same structure as input row 246 (CC1=C(C=CC=C1Cl)N); experimental values differ by 0
+logP,2595,,Cc1cc(Cl)ccc1N,1.9,2.23062,-0.33062000000000014,Duplicate structure,same structure as input row 248 (CC1=C(C=CC(=C1)Cl)N); experimental values differ by 0
+logP,2596,,Cc1cccc(c1N)[N+]([O-])=O,2.0,1.48542,0.51458,Duplicate structure,same structure as input row 1819 (CC1=C(C(=CC=C1)[N+](=O)[O-])N); experimental values differ by 0
+logP,2598,,CNc1ccccn1,1.1,1.1232999999999995,-0.023299999999999432,Duplicate structure,same structure as input row 706 (CNC1=CC=CC=N1); experimental values differ by 0
+logP,2600,,Cc1ccccc1N,1.3,1.57722,-0.27722,Duplicate structure,same structure as input row 40 (CC1=CC=CC=C1N); experimental values differ by 0
+logP,2601,,Cc1ccccc1CN,1.3,1.45372,-0.15371999999999986,Duplicate structure,same structure as input row 626 (CC1=CC=CC=C1CN); experimental values differ by 0
+logP,2603,,CC(C)C(N)=O,0.2,0.1277,0.0723,Duplicate structure,same structure as input row 693 (CC(C)C(=O)N); experimental values differ by 0
+logP,2604,,Nc1ccc2ccccc2c1,2.3,2.4220000000000006,-0.12200000000000077,Duplicate structure,same structure as input row 729 (C1=CC=C2C=C(C=CC2=C1)N); experimental values differ by 0
+logP,2606,,Nc1ccccc1[N+]([O-])=O,1.9,1.177,0.7229999999999999,Duplicate structure,same structure as input row 732 (C1=CC=C(C(=C1)N)[N+](=O)[O-]); experimental values differ by 0
+logP,2607,,O=N(=O)c1ccccc1Nc1ccccc1,3.7,3.338400000000001,0.36159999999999926,Duplicate structure,same structure as input row 1929 (C1=CC=C(C=C1)NC2=CC=CC=C2[N+](=O)[O-]); experimental values differ by 0
+logP,2608,,Cc1ccc(N)c(c1)[N+]([O-])=O,2.0,1.48542,0.51458,Duplicate structure,same structure as input row 1820 (CC1=CC(=C(C=C1)N)[N+](=O)[O-]); experimental values differ by 0
+logP,2613,,NCCc1ccccc1,1.4,1.1878,0.21219999999999994,Duplicate structure,same structure as input row 141 (C1=CC=C(C=C1)CCN); experimental values differ by 0
+logP,2614,,NC(=O)NNc1ccccc1,0.1,0.6818,-0.5818,Duplicate structure,same structure as input row 2024 (C1=CC=C(C=C1)NNC(=O)N); experimental values differ by 0
+logP,2615,,NCc1ccccn1,-0.2,0.5403000000000001,-0.7403000000000002,Duplicate structure,same structure as input row 854 (C1=CC=NC(=C1)CN); experimental values differ by 0
+logP,2616,,NCC=C,0.1,0.1311,-0.03109999999999999,Duplicate structure,same structure as input row 75 (C=CCN); experimental values differ by 0
+logP,2617,,NC(=O)C=C,-0.7,-0.3423,-0.35769999999999996,Duplicate structure,same structure as input row 109 (C=CC(=O)N); experimental values differ by 0
+logP,2618,,NCC#C,-0.4,-0.4216999999999999,0.021699999999999886,Duplicate structure,same structure as input row 844 (C#CCN); experimental values differ by 0
+logP,2621,,Nc1sccn1,0.4,0.7253000000000001,-0.32530000000000003,Duplicate structure,same structure as input row 2143 (C1=CSC(=N1)N); experimental values differ by 0
+logP,2624,,Cc1ccccc1C(N)=O,0.8,1.09392,-0.29391999999999996,Duplicate structure,same structure as input row 1793 (CC1=CC=CC=C1C(=O)N); experimental values differ by 0
+logP,2627,,CCN(CC)c1cccc(O)c1,2.3,2.2384000000000004,0.06159999999999943,Duplicate structure,same structure as input row 331 (CCN(CC)C1=CC(=CC=C1)O); experimental values differ by 0
+logP,2630,,CN(C)c1cccc(O)c1,1.6,1.4582,0.14180000000000015,Duplicate structure,same structure as input row 374 (CN(C)C1=CC(=CC=C1)O); experimental values differ by 0
+logP,2635,,Nc1cccc(c1)C(F)(F)F,2.3,2.2876000000000003,0.012399999999999523,Duplicate structure,same structure as input row 942 (C1=CC(=CC(=C1)N)C(F)(F)F); experimental values differ by 0
+logP,2644,,Nc1ccc(cc1Cl)c2ccc(N)c(Cl)c2,3.5,3.8248000000000006,-0.32480000000000064,Duplicate structure,same structure as input row 1407 (C1=CC(=C(C=C1C2=CC(=C(C=C2)N)Cl)Cl)N); experimental values differ by 0
+logP,2647,,CC(N)C(C)(C)C,1.4,1.3797,0.020299999999999985,Duplicate structure,same structure as input row 397 (CC(C(C)(C)C)N); experimental values differ by 0
+logP,2649,,N#CCCNCCC#N,-0.8,0.40336,-1.20336,Duplicate structure,same structure as input row 1705 (C(CNCCC#N)C#N); experimental values differ by 0
+logP,2650,,NCCCNCCCN,-1.4,-0.7263999999999986,-0.6736000000000013,Duplicate structure,same structure as input row 1084 (C(CN)CNCCCN); experimental values differ by 0
+logP,2652,,Cc1ccc(N)c(N)c1,0.6,1.15942,-0.5594199999999999,Duplicate structure,same structure as input row 622 (CC1=CC(=C(C=C1)N)N); experimental values differ by 0
+logP,2653,,Nc1ccc(Cl)c(Cl)c1,2.7,2.575600000000001,0.12439999999999918,Duplicate structure,same structure as input row 311 (C1=CC(=C(C=C1N)Cl)Cl); experimental values differ by 0
+logP,2654,,Nc1ccncc1N,-0.5,0.2460000000000001,-0.7460000000000001,Duplicate structure,same structure as input row 2080 (C1=CN=CC(=C1N)N); experimental values differ by 0
+logP,2655,,Cc1ccc(N)cc1C,2.5,1.88564,0.61436,Duplicate structure,same structure as input row 384 (CC1=C(C=C(C=C1)N)C); experimental values differ by 0
+logP,2656,,Nc1cc(N)cc(c1)C(O)=O,0.2,0.5491999999999999,-0.3491999999999999,Duplicate structure,same structure as input row 1376 (C1=C(C=C(C=C1N)N)C(=O)O); experimental values differ by 0
+logP,2657,,Cc1cc(N)cc(N)c1,0.9,1.15942,-0.2594199999999999,Duplicate structure,same structure as input row 620 (CC1=CC(=CC(=C1)N)N); experimental values differ by 0
+logP,2658,,Nc1cc(Br)cc(Br)c1,3.1,2.793800000000001,0.30619999999999914,Duplicate structure,same structure as input row 1393 (C1=C(C=C(C=C1Br)Br)N); experimental values differ by 0
+logP,2659,,Nc1cc(Cl)cc(Cl)c1,2.9,2.575600000000001,0.3243999999999989,Duplicate structure,same structure as input row 312 (C1=C(C=C(C=C1Cl)Cl)N); experimental values differ by 0
+logP,2660,,Nc1cc(cc(c1)[N+]([O-])=O)[N+]([O-])=O,1.9,1.0852,0.8148,Duplicate structure,same structure as input row 1512 (C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])N); experimental values differ by 0
+logP,2661,,NC(=O)c1cc(cc(c1)[N+]([O-])=O)[N+]([O-])=O,0.8,0.6019,0.19810000000000005,Duplicate structure,same structure as input row 1515 (C1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])C(=O)N); experimental values differ by 0
+logP,2662,,Cc1cc(C)cc(N)c1,2.0,1.88564,0.11436000000000002,Duplicate structure,same structure as input row 385 (CC1=CC(=CC(=C1)N)C); experimental values differ by 0
+logP,2667,,NCCCO,-1.1,-0.6724999999999999,-0.4275000000000002,Duplicate structure,same structure as input row 131 (C(CN)CO); experimental values differ by 0
+logP,2672,,Nc1cccc(c1)C(O)=O,0.1,0.967,-0.867,Duplicate structure,same structure as input row 1098 (C1=CC(=CC(=C1)N)C(=O)O); experimental values differ by 0
+logP,2673,,CCOC(=O)c(ccc1)cc1N,1.8,1.4455,0.35450000000000004,Duplicate structure,same structure as input row 478 (CCOC(=O)C1=CC(=CC=C1)N); experimental values differ by 0
+logP,2674,,Nc1cccc(c1)C#N,1.1,1.1404800000000002,-0.04048000000000007,Duplicate structure,same structure as input row 118 (C1=CC(=CC(=C1)N)C#N); experimental values differ by 0
+logP,2675,,CC(N)CC(O)=O,-3.1,-0.1917,-2.9083,Duplicate structure,same structure as input row 1019 (CC(CC(=O)O)N); experimental values differ by 0
+logP,2676,,Nc1cccc(c1)[N+]([O-])=O,1.4,1.177,0.22299999999999986,Duplicate structure,same structure as input row 733 (C1=CC(=CC(=C1)[N+](=O)[O-])N); experimental values differ by 0
+logP,2678,,Nc1cccc(O)c1,0.2,0.9744,-0.7744,Duplicate structure,same structure as input row 1076 (C1=CC(=CC(=C1)O)N); experimental values differ by 0
+logP,2679,,Nc1cccnc1,0.1,0.6638000000000001,-0.5638000000000001,Duplicate structure,same structure as input row 847 (C1=CC(=CN=C1)N); experimental values differ by 0
+logP,2680,,Nc1cccc(Br)c1,2.1,2.0313,0.0687000000000002,Duplicate structure,same structure as input row 178 (C1=CC(=CC(=C1)Br)N); experimental values differ by 0
+logP,2683,,Nc1ccc(F)c(Cl)c1,2.1,2.0613,0.03869999999999996,Duplicate structure,same structure as input row 240 (C1=CC(=C(C=C1N)Cl)F); experimental values differ by 0
+logP,2685,,CC(=O)Nc1cccc(Cl)c1,2.1,2.2984,-0.1983999999999999,Duplicate structure,same structure as input row 263 (CC(=O)NC1=CC(=CC=C1)Cl); experimental values differ by 0
+logP,2687,,Nc1cccc(Cl)c1,1.9,1.9222,-0.022199999999999998,Duplicate structure,same structure as input row 224 (C1=CC(=CC(=C1)Cl)N); experimental values differ by 0
+logP,2688,,Cc1ccc(N)cc1Cl,2.9,2.23062,0.6693799999999999,Duplicate structure,same structure as input row 247 (CC1=C(C=C(C=C1)N)Cl); experimental values differ by 0
+logP,2702,,COc1cccc(N)c1,0.9,1.2774,-0.37740000000000007,Duplicate structure,same structure as input row 591 (COC1=CC=CC(=C1)N); experimental values differ by 0
+logP,2703,,Cc1cccnc1N,0.9,0.97222,-0.07221999999999995,Duplicate structure,same structure as input row 703 (CC1=C(N=CC=C1)N); experimental values differ by 0
+logP,2706,,Cc1cccc(N)c1,1.4,1.5772199999999998,-0.17721999999999993,Duplicate structure,same structure as input row 41 (CC1=CC(=CC=C1)N); experimental values differ by 0
+logP,2708,,Cc1cccc(CN)c1,1.3,1.45372,-0.15371999999999986,Duplicate structure,same structure as input row 627 (CC1=CC(=CC=C1)CN); experimental values differ by 0
+logP,2709,,CC(C)CC(N)=O,0.4,0.5178000000000001,-0.11780000000000013,Duplicate structure,same structure as input row 638 (CC(C)CC(=O)N); experimental values differ by 0
+logP,2714,,Cc1ccc(N)cc1[N+]([O-])=O,1.7,1.48542,0.21458,Duplicate structure,same structure as input row 1821 (CC1=C(C=C(C=C1)N)[N+](=O)[O-]); experimental values differ by 0
+logP,2715,,NC(=O)c1cccc(c1)[N+]([O-])=O,0.8,0.6937,0.10630000000000006,Duplicate structure,same structure as input row 738 (C1=CC(=CC(=C1)[N+](=O)[O-])C(=O)N); experimental values differ by 0
+logP,2717,,Cc1c(N)cccc1[N+]([O-])=O,1.8,1.48542,0.3145800000000001,Duplicate structure,same structure as input row 674 (CC1=C(C=CC=C1[N+](=O)[O-])N); experimental values differ by 0
+logP,2718,,CC(=O)CC(=O)Nc1ccccc1,1.5,1.6041999999999998,-0.10419999999999985,Duplicate structure,same structure as input row 967 (CC(=O)CC(=O)NC1=CC=CC=C1); experimental values differ by 0
+logP,2719,,CCC(N)CC,1.1,1.1337,-0.03369999999999984,Duplicate structure,same structure as input row 782 (CCC(CC)N); experimental values differ by 0
+logP,2722,,OC(=O)c1cccnc1,0.4,0.7797999999999999,-0.3797999999999999,Duplicate structure,same structure as input row 2076 (C1=CC(=CN=C1)C(=O)O); experimental values differ by 0
+logP,2723,,NCc1cccnc1,-0.3,0.5403,-0.8403,Duplicate structure,same structure as input row 855 (C1=CC(=CN=C1)CN); experimental values differ by 0
+logP,2724,,Nc1cnc2ccccc2c1,1.6,1.817,-0.21699999999999986,Duplicate structure,same structure as input row 2101 (C1=CC=C2C(=C1)C=C(C=N2)N); experimental values differ by 0
+logP,2725,,Oc1ccc(Nc2ccc(cc2[N+]([O-])=O)[N+]([O-])=O)cc1,3.4,2.9522000000000004,0.44779999999999953,Duplicate structure,same structure as input row 1537 (C1=CC(=CC=C1NC2=C(C=C(C=C2)[N+](=O)[O-])[N+](=O)[O-])O); experimental values differ by 0
+logP,2727,,NCCc1ccc(O)cc1,1.1,0.8934,0.20660000000000012,Duplicate structure,same structure as input row 1041 (C1=CC(=CC=C1CCN)O); experimental values differ by 0
+logP,2728,,CC(N)Cc1ccc(O)cc1,1.4,1.2819,0.11809999999999987,Duplicate structure,same structure as input row 1083 (CC(CC1=CC=C(C=C1)O)N); experimental values differ by 0
+logP,2729,,NCc1ccncc1,-0.4,0.5403000000000001,-0.9403000000000001,Duplicate structure,same structure as input row 856 (C1=CN=CC=C1CN); experimental values differ by 0
+logP,2733,,CSc1ccc(N)cc1,1.8,1.9907,-0.19069999999999987,Duplicate structure,same structure as input row 723 (CSC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2744,,Nc1ccc(Oc2ccc(N)cc2)cc1,1.4,2.643300000000001,-1.243300000000001,Duplicate structure,same structure as input row 299 (C1=CC(=CC=C1N)OC2=CC=C(C=C2)N); experimental values differ by 0
+logP,2745,,NC1=NCCS1,-0.2,0.0479000000000001,-0.24790000000000012,Duplicate structure,same structure as input row 1451 (C1CSC(=N1)N); experimental values differ by 0
+logP,2749,,CNC(C)Cc1ccc(O)cc1,1.7,1.5425999999999995,0.15740000000000043,Duplicate structure,same structure as input row 1792 (CC(CC1=CC=C(C=C1)O)NC); experimental values differ by 0
+logP,2750,,OC(=O)c1ccc(cc1)NC(C)=O,1.3,1.3432,-0.043199999999999905,Duplicate structure,same structure as input row 972 (CC(=O)NC1=CC=C(C=C1)C(=O)O); experimental values differ by 0
+logP,2752,,Cc1cc(N)ccc1O,0.7,1.2828199999999998,-0.5828199999999999,Duplicate structure,same structure as input row 1058 (CC1=C(C=CC(=C1)N)O); experimental values differ by 0
+logP,2753,,Nc1ccc(O)c(c1)[N+]([O-])=O,1.0,0.8825999999999998,0.11740000000000017,Duplicate structure,same structure as input row 1072 (C1=CC(=C(C=C1N)[N+](=O)[O-])O); experimental values differ by 0
+logP,2757,,CC(=O)c1ccc(N)cc1,0.8,1.4714,-0.6714,Duplicate structure,same structure as input row 128 (CC(=O)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,2758,,NC(=O)c1ccc(N)cc1,-0.4,0.3677,-0.7677,Duplicate structure,same structure as input row 1008 (C1=CC(=CC=C1C(=O)N)N); experimental values differ by 0
+logP,2759,,Nc1ccc(CC(O)=O)cc1,0.9,0.8958999999999999,0.0041000000000001036,Duplicate structure,same structure as input row 1009 (C1=CC(=CC=C1CC(=O)O)N); experimental values differ by 0
+logP,2761,,Nc1ccc(S)cc1,1.3,1.5575,-0.25750000000000006,Duplicate structure,same structure as input row 1012 (C1=CC(=CC=C1N)S); experimental values differ by 0
+logP,2762,,Nc1ccc(cc1)C(O)=O,0.8,0.967,-0.16699999999999993,Duplicate structure,same structure as input row 1099 (C1=CC(=CC=C1C(=O)O)N); experimental values differ by 0
+logP,2764,,Cc1ccc(N)c(c1)C(O)=O,1.8,1.27542,0.52458,Duplicate structure,same structure as input row 2506 (OC(=O)c1cc(C)ccc1N); experimental values differ by 0
+logP,2766,,Nc1ccc(O)cc1,0.0,0.9744,-0.9744,Duplicate structure,same structure as input row 1077 (C1=CC(=CC=C1N)O); experimental values differ by 0
+logP,2769,,Nc1ccncn1,-0.2,0.0588,-0.25880000000000003,Duplicate structure,same structure as input row 2093 (C1=CN=CN=C1N); experimental values differ by 0
+logP,2770,,Nc1ccnc2ccccc12,1.6,1.817,-0.21699999999999986,Duplicate structure,same structure as input row 2102 (C1=CC=C2C(=C1)C(=CC=N2)N); experimental values differ by 0
+logP,2772,,CC(=O)Nc1ccc(Br)cc1,2.3,2.4075,-0.10750000000000037,Duplicate structure,same structure as input row 1195 (CC(=O)NC1=CC=C(C=C1)Br); experimental values differ by 0
+logP,2773,,Nc1ccc(Br)cc1,2.3,2.0313,0.26869999999999994,Duplicate structure,same structure as input row 179 (C1=CC(=CC=C1N)Br); experimental values differ by 0
+logP,2774,,CN(C)c1ccc(Br)cc1,3.2,2.5151000000000003,0.6848999999999998,Duplicate structure,same structure as input row 184 (CN(C)C1=CC=C(C=C1)Br); experimental values differ by 0
+logP,2776,,CCCCc1ccc(N)cc1,3.0,2.6114000000000006,0.3885999999999994,Duplicate structure,same structure as input row 205 (CCCCC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2777,,CNc1ccc(Cl)cc1,2.8,2.3817000000000004,0.41829999999999945,Duplicate structure,same structure as input row 243 (CNC1=CC=C(C=C1)Cl); experimental values differ by 0
+logP,2778,,Nc1ccc(Cl)cc1N,1.3,1.5044,-0.20439999999999992,Duplicate structure,same structure as input row 1247 (C1=CC(=C(C=C1Cl)N)N); experimental values differ by 0
+logP,2780,,COc1cc(Cl)ccc1N,1.9,1.9308,-0.03080000000000016,Duplicate structure,same structure as input row 242 (COC1=C(C=CC(=C1)Cl)N); experimental values differ by 0
+logP,2781,,Nc1ccc(Cl)cc1[N+]([O-])=O,2.7,1.8304,0.8696000000000002,Duplicate structure,same structure as input row 1276 (C1=CC(=C(C=C1Cl)[N+](=O)[O-])N); experimental values differ by 0
+logP,2782,,Nc1ccc(Cl)cc1,1.9,1.9222,-0.022199999999999998,Duplicate structure,same structure as input row 225 (C1=CC(=CC=C1N)Cl); experimental values differ by 0
+logP,2785,,Nc1ccc(cc1)C#N,1.3,1.1404800000000002,0.15951999999999988,Duplicate structure,same structure as input row 1013 (C1=CC(=CC=C1C#N)N); experimental values differ by 0
+logP,2786,,CN(C)c1ccc(cc1)C(O)=O,1.8,1.4508,0.34919999999999995,Duplicate structure,same structure as input row 1473 (CN(C)C1=CC=C(C=C1)C(=O)O); experimental values differ by 0
+logP,2787,,CCOc1ccc(N)c(N)c1,1.0,1.2497,-0.24970000000000003,Duplicate structure,same structure as input row 468 (CCOC1=CC(=C(C=C1)N)N); experimental values differ by 0
+logP,2788,,CCOc1ccc(N)cc1,1.2,1.6675,-0.4675,Duplicate structure,same structure as input row 467 (CCOC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2789,,CCc1ccc(N)cc1,2.0,1.8312,0.16880000000000006,Duplicate structure,same structure as input row 483 (CCC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2791,,Cc1cc(F)ccc1N,1.4,1.7163199999999998,-0.31631999999999993,Duplicate structure,same structure as input row 1631 (CC1=C(C=CC(=C1)F)N); experimental values differ by 0
+logP,2799,,CC(=O)Nc1ccc(O)cc1,0.5,1.3505999999999998,-0.8505999999999998,Duplicate structure,same structure as input row 1688 (CC(=O)NC1=CC=C(C=C1)O); experimental values differ by 0
+logP,2800,,Nc1ccc(I)cc1,2.3,1.8734,0.42659999999999987,Duplicate structure,same structure as input row 1724 (C1=CC(=CC=C1N)I); experimental values differ by 0
+logP,2802,,COc1ccc(N)c(C)c1,1.2,1.5858199999999998,-0.38581999999999983,Duplicate structure,same structure as input row 604 (CC1=C(C=CC(=C1)OC)N); experimental values differ by 0
+logP,2803,,COc1ccc(NC(C)=O)cc1,1.1,1.6535999999999995,-0.5535999999999994,Duplicate structure,same structure as input row 1780 (CC(=O)NC1=CC=C(C=C1)OC); experimental values differ by 0
+logP,2804,,COc1ccc(CN)cc1,0.8,1.1539,-0.3538999999999999,Duplicate structure,same structure as input row 596 (COC1=CC=C(C=C1)CN); experimental values differ by 0
+logP,2806,,Cc1ccc(N)cc1N,0.1,1.15942,-1.0594199999999998,Duplicate structure,same structure as input row 619 (CC1=C(C=C(C=C1)N)N); experimental values differ by 0
+logP,2807,,Cc1ccnc(N)c1,0.6,0.97222,-0.37222,Duplicate structure,same structure as input row 1843 (CC1=CC(=NC=C1)N); experimental values differ by 0
+logP,2808,,Cc1ccnc(N)n1,0.3,0.36722,-0.06722,Duplicate structure,same structure as input row 1846 (CC1=NC(=NC=C1)N); experimental values differ by 0
+logP,2809,,Cc1csc(N)n1,1.0,1.03372,-0.03371999999999997,Duplicate structure,same structure as input row 1849 (CC1=CSC(=N1)N); experimental values differ by 0
+logP,2810,,CC(=O)Nc1ccc(C)cc1,1.7,1.95342,-0.25342,Duplicate structure,same structure as input row 613 (CC1=CC=C(C=C1)NC(=O)C); experimental values differ by 0
+logP,2811,,CNc1ccc(cc1)C(O)=O,2.2,1.4265,0.7735000000000001,Duplicate structure,same structure as input row 1789 (CNC1=CC=C(C=C1)C(=O)O); experimental values differ by 0
+logP,2812,,Cc1ccc(N)cc1,1.4,1.5772199999999998,-0.17721999999999993,Duplicate structure,same structure as input row 42 (CC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2813,,Cc1ccc(cc1)C(N)=O,1.2,1.09392,0.10607999999999995,Duplicate structure,same structure as input row 1794 (CC1=CC=C(C=C1)C(=O)N); experimental values differ by 0
+logP,2815,,Cc1ccc(CN)cc1,1.3,1.45372,-0.15371999999999986,Duplicate structure,same structure as input row 628 (CC1=CC=C(C=C1)CN); experimental values differ by 0
+logP,2821,,Cc1cc(ccc1N)[N+]([O-])=O,1.1,1.48542,-0.3854199999999999,Duplicate structure,same structure as input row 1817 (CC1=C(C=CC(=C1)[N+](=O)[O-])N); experimental values differ by 0
+logP,2822,,CC(=O)Nc1ccc(cc1)[N+]([O-])=O,1.7,1.5531999999999997,0.14680000000000026,Duplicate structure,same structure as input row 1926 (CC(=O)NC1=CC=C(C=C1)[N+](=O)[O-]); experimental values differ by 0
+logP,2823,,NC(=O)c1ccc(cc1)[N+]([O-])=O,0.8,0.6937,0.10630000000000006,Duplicate structure,same structure as input row 1881 (C1=CC(=CC=C1C(=O)N)[N+](=O)[O-]); experimental values differ by 0
+logP,2824,,O=N(=O)c(cc1)ccc1Nc1ccc(cc1)N(=O)=O,3.6,3.2466000000000017,0.3533999999999984,Duplicate structure,same structure as input row 1524 (C1=CC(=CC=C1NC2=CC=C(C=C2)[N+](=O)[O-])[N+](=O)[O-]); experimental values differ by 0
+logP,2826,,O=N(=O)c(cc1)ccc1Nc1ccccc1,3.7,3.338400000000001,0.36159999999999926,Duplicate structure,same structure as input row 1930 (C1=CC=C(C=C1)NC2=CC=C(C=C2)[N+](=O)[O-]); experimental values differ by 0
+logP,2827,,NCC1CCNCC1,-0.4,-0.0553000000000001,-0.3446999999999999,Duplicate structure,same structure as input row 827 (C1CNCCC1CN); experimental values differ by 0
+logP,2828,,CCCc1ccc(N)cc1,2.4,2.2213000000000003,0.17869999999999964,Duplicate structure,same structure as input row 835 (CCCC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2830,,Nc1ccncc1,0.3,0.6638000000000001,-0.36380000000000007,Duplicate structure,same structure as input row 848 (C1=CN=CC=C1N); experimental values differ by 0
+logP,2831,,NC(=O)c1ccncc1,-0.3,0.1804999999999999,-0.4804999999999999,Duplicate structure,same structure as input row 2074 (C1=CN=CC=C1C(=O)N); experimental values differ by 0
+logP,2832,,CC(C)(C)c1ccc(N)cc1,2.7,2.5663,0.13370000000000015,Duplicate structure,same structure as input row 207 (CC(C)(C)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,2833,,Nc1ccc(C=C)cc1,1.8,1.9118,-0.1117999999999999,Duplicate structure,same structure as input row 2203 (C=CC1=CC=C(C=C1)N); experimental values differ by 0
+logP,2836,,Nc1cccc2CCCCc12,2.6,2.1476,0.4523999999999999,Duplicate structure,same structure as input row 893 (C1CCC2=C(C1)C=CC=C2N); experimental values differ by 0
+logP,2839,,Nc1ccc(O)c(c1)C(O)=O,1.3,0.6726000000000001,0.6274,Duplicate structure,same structure as input row 1048 (C1=CC(=C(C=C1N)C(=O)O)O); experimental values differ by 0
+logP,2842,,NCCCCCO,-0.3,0.1076999999999999,-0.4076999999999999,Duplicate structure,same structure as input row 123 (C(CCN)CCO); experimental values differ by 0
+logP,2844,,Nc1ccc(Cl)cn1,1.1,1.3172,-0.21719999999999984,Duplicate structure,same structure as input row 1295 (C1=CC(=NC=C1Cl)N); experimental values differ by 0
+logP,2845,,Cc1ccc(Cl)cc1N,1.4,2.23062,-0.8306200000000001,Duplicate structure,same structure as input row 249 (CC1=C(C=C(C=C1)Cl)N); experimental values differ by 0
+logP,2846,,CCCC(C)C1(CC)C(=O)NC(=O)NC1=O,2.1,1.1849999999999998,0.9150000000000003,Duplicate structure,same structure as input row 1610 (CCCC(C)C1(C(=O)NC(=O)NC1=O)CC); experimental values differ by 0
+logP,2848,,Nc1ccc2CCCc2c1,2.1,1.7575,0.3425,Duplicate structure,same structure as input row 357 (C1CC2=C(C1)C=C(C=C2)N); experimental values differ by 0
+logP,2851,,Cc1onc(N)c1,0.1,0.5652200000000001,-0.4652200000000001,Duplicate structure,same structure as input row 1816 (CC1=CC(=NO1)N); experimental values differ by 0
+logP,2852,,Nc1ccc(cn1)[N+]([O-])=O,0.9,0.572,0.32800000000000007,Duplicate structure,same structure as input row 1945 (C1=CC(=NC=C1[N+](=O)[O-])N); experimental values differ by 0
+logP,2854,,Cc1ccc(cc1N)[N+]([O-])=O,1.9,1.48542,0.41457999999999995,Duplicate structure,same structure as input row 1818 (CC1=C(C=C(C=C1)[N+](=O)[O-])N); experimental values differ by 0
+logP,2855,,Nc1cccc2ncccc12,1.2,1.817,-0.617,Duplicate structure,same structure as input row 872 (C1=CC(=C2C=CC=NC2=C1)N); experimental values differ by 0
+logP,2856,,NCCCCCCO,0.0,0.4978000000000001,-0.4978000000000001,Duplicate structure,same structure as input row 1044 (C(CCCO)CCN); experimental values differ by 0
+logP,2858,,Cc1ccc(N)nc1,1.0,0.97222,0.027780000000000027,Duplicate structure,same structure as input row 704 (CC1=CN=C(C=C1)N); experimental values differ by 0
+logP,2859,,Nc1ccc(cn1)C(O)=O,1.4,0.3620000000000001,1.0379999999999998,Duplicate structure,same structure as input row 1086 (C1=CC(=NC=C1C(=O)O)N); experimental values differ by 0
+logP,2860,,Nc1cc2c3ccccc3ccc2c4ccccc14,5.0,4.728400000000002,0.2715999999999976,Duplicate structure,same structure as input row 1308 (C1=CC=C2C(=C1)C=CC3=C2C=C(C4=CC=CC=C34)N); experimental values differ by 0
+logP,2864,,Nc1ccc2ncsc2c1,1.3,1.8785,-0.5785,Duplicate structure,same structure as input row 1131 (C1=CC2=C(C=C1N)SC=N2); experimental values differ by 0
+logP,2865,,Cc1cccc(N)n1,0.4,0.97222,-0.57222,Duplicate structure,same structure as input row 705 (CC1=NC(=CC=C1)N); experimental values differ by 0
+logP,2868,,Nc1ccc2ncccc2c1,1.3,1.817,-0.5169999999999999,Duplicate structure,same structure as input row 2103 (C1=CC2=C(C=CC(=C2)N)N=C1); experimental values differ by 0
+logP,2870,,Nc1cccc2ccc(O)cc12,1.6,2.1276,-0.5276000000000001,Duplicate structure,same structure as input row 1066 (C1=CC2=C(C=C(C=C2)O)C(=C1)N); experimental values differ by 0
+logP,2871,,Nc1cccc2cccnc12,1.8,1.817,-0.016999999999999904,Duplicate structure,same structure as input row 2104 (C1=CC2=C(C(=C1)N)N=CC=C2); experimental values differ by 0
+logP,2874,,CC(N)=O,-0.9,-0.5084000000000002,-0.39159999999999984,Duplicate structure,same structure as input row 103 (CC(=O)N); experimental values differ by 0
+logP,2876,,CCC(c1ccccc1)C(=O)N,1.7,1.6654999999999998,0.0345000000000002,Duplicate structure,same structure as input row 1596 (CCC(C1=CC=CC=C1)C(=O)N); experimental values differ by 0
+logP,2878,,CCc1cccc(CC)c1N(COC)C(=O)CCl,3.5,2.9871000000000016,0.5128999999999984,Duplicate structure,same structure as input row 996 (CCC1=C(C(=CC=C1)CC)N(COC)C(=O)CCl); experimental values differ by 0
+logP,2882,,NC(=O)NCC=C,-0.4,-0.1593,-0.24070000000000003,Duplicate structure,same structure as input row 1001 (C=CCNC(=O)N); experimental values differ by 0
+logP,2885,,CC(C)(N)C(O)=O,-2.8,-0.1916999999999999,-2.6083,Duplicate structure,same structure as input row 1061 (CC(C)(C(=O)O)N); experimental values differ by 0
+logP,2888,,CCNc1nc(NC(C)C)nc(SC)n1,3.0,1.8456,1.1544,Duplicate structure,same structure as input row 1002 (CCNC1=NC(=NC(=N1)SC)NC(C)C); experimental values differ by 0
+logP,2890,,CCOC(CN)=O,-0.4,-0.4917999999999999,0.09179999999999988,Duplicate structure,same structure as input row 476 (CCOC(=O)CN); experimental values differ by 0
+logP,2893,,Nc1[nH]nnn1,-0.9,-1.2181000000000004,0.3181000000000004,Duplicate structure,same structure as input row 2141 (C1(=NNN=N1)N); experimental values differ by 0
+logP,2895,,Nc1[nH]ncn1,-0.4,-0.6131000000000004,0.2131000000000004,Duplicate structure,same structure as input row 2156 (C1=NNC(=N1)N); experimental values differ by 0
+logP,2896,,Nc1ccccc1,0.9,1.2688,-0.3687999999999999,Duplicate structure,same structure as input row 3 (C1=CC=C(C=C1)N); experimental values differ by 0
+logP,2900,,COC(=O)C(Cc1ccccc1)NC(=O)C(N)CC(O)=O,-2.7,-0.3110999999999995,-2.3889000000000005,Duplicate structure,same structure as input row 1105 (COC(=O)C(CC1=CC=CC=C1)NC(=O)C(CC(=O)O)N); experimental values differ by 0
+logP,2902,,CC(C)NCC(O)COc1ccc(CC(N)=O)cc1,0.2,0.4521,-0.2521,Duplicate structure,same structure as input row 1107 (CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O); experimental values differ by 0
+logP,2903,,CCNc1nc(Cl)nc(NC(C)C)n1,2.6,1.7770999999999997,0.8229000000000004,Duplicate structure,same structure as input row 1108 (CCNC1=NC(=NC(=N1)Cl)NC(C)C); experimental values differ by 0
+logP,2905,,NCCC#N,-1.0,-0.1412199999999999,-0.8587800000000001,Duplicate structure,same structure as input row 129 (C(CN)C#N); experimental values differ by 0
+logP,2906,,NC(=O)c1ccccc1,0.6,0.7855000000000001,-0.1855000000000001,Duplicate structure,same structure as input row 135 (C1=CC=C(C=C1)C(=O)N); experimental values differ by 0
+logP,2907,,NC(=O)Cc1ccccc1,0.5,0.7143999999999999,-0.21439999999999992,Duplicate structure,same structure as input row 1120 (C1=CC=C(C=C1)CC(=O)N); experimental values differ by 0
+logP,2910,,Nc1ccc(cc1)c2ccc(N)cc2,1.3,2.518,-1.2179999999999997,Duplicate structure,same structure as input row 143 (C1=CC(=CC=C1C2=CC=C(C=C2)N)N); experimental values differ by 0
+logP,2911,,CCOC(=O)c(cc1)ccc1N,1.9,1.4455,0.4544999999999999,Duplicate structure,same structure as input row 479 (CCOC(=O)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,2912,,Nc1nc(N)nc(n1)c2ccccc2,1.4,0.7029999999999998,0.6970000000000001,Duplicate structure,same structure as input row 2035 (C1=CC=C(C=C1)C2=NC(=NC(=N2)N)N); experimental values differ by 0
+logP,2915,,NC(=O)NCc1ccccc1,0.7,0.8548999999999998,-0.15489999999999982,Duplicate structure,same structure as input row 1148 (C1=CC=C(C=C1)CNC(=O)N); experimental values differ by 0
+logP,2917,,CC(=O)c1cccc(N)c1,1.2,1.4714,-0.2714000000000001,Duplicate structure,same structure as input row 127 (CC(=O)C1=CC(=CC=C1)N); experimental values differ by 0
+logP,2918,,CN(C)C(C)C(O)c1ccccc1,1.7,1.6701,0.029900000000000038,Duplicate structure,same structure as input row 1813 (CC(C(C1=CC=CC=C1)O)N(C)C); experimental values differ by 0
+logP,2926,,CCN(CC)c1ccc(cc1)C(=O)c2ccc(cc2)N(CC)CC,5.3,4.610000000000005,0.6899999999999951,Duplicate structure,same structure as input row 1166 (CCN(CC)C1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)N(CC)CC); experimental values differ by 0
+logP,2927,,CN(C)c1ccc(cc1)C(=O)c2ccc(cc2)N(C)C,3.9,3.0496000000000016,0.8503999999999983,Duplicate structure,same structure as input row 2139 (CN(C)C1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)N(C)C); experimental values differ by 0
+logP,2928,,NC(=O)NNC(N)=O,-2.1,-1.7620000000000005,-0.33799999999999963,Duplicate structure,same structure as input row 1664 (C(=O)(N)NNC(=O)N); experimental values differ by 0
+logP,2930,,Oc1c(Br)cc(Br)c2cccnc12,3.2,3.4654000000000007,-0.2654000000000005,Duplicate structure,same structure as input row 1398 (C1=CC2=C(C(=C(C=C2Br)Br)O)N=C1); experimental values differ by 0
+logP,2931,,CCCC(N)=O,-0.2,0.2718000000000001,-0.4718000000000001,Duplicate structure,same structure as input row 197 (CCCC(=O)N); experimental values differ by 0
+logP,2933,,CCCC(=O)Nc1ccccc1,2.0,2.4252,-0.4251999999999998,Duplicate structure,same structure as input row 2021 (CCCC(=O)NC1=CC=CC=C1); experimental values differ by 0
+logP,2935,,O=C1CCCCCN1,-0.1,0.6766000000000001,-0.7766000000000001,Duplicate structure,same structure as input row 218 (C1CCC(=O)NCC1); experimental values differ by 0
+logP,2937,,CC(C)COC(N)=O,0.6,0.7377,-0.13770000000000004,Duplicate structure,same structure as input row 575 (CC(C)COC(=O)N); experimental values differ by 0
+logP,2939,,CNC(=O)Oc1cccc2ccccc12,2.4,2.5580000000000007,-0.1580000000000008,Duplicate structure,same structure as input row 1222 (CNC(=O)OC1=CC=CC2=CC=CC=C21); experimental values differ by 0
+logP,2941,,Nc1cc(Cl)cc(C(O)=O)c1Cl,2.0,2.2738,-0.27380000000000004,Duplicate structure,same structure as input row 1032 (C1=C(C=C(C(=C1C(=O)O)Cl)N)Cl); experimental values differ by 0
+logP,2945,,CC(C)OC(=O)Nc1cccc(Cl)c1,3.5,3.2969000000000017,0.20309999999999828,Duplicate structure,same structure as input row 1293 (CC(C)OC(=O)NC1=CC(=CC=C1)Cl); experimental values differ by 0
+logP,2951,,NC#N,-0.3,-0.57382,0.27382,Duplicate structure,same structure as input row 1328 (C(#N)N); experimental values differ by 0
+logP,2952,,CCNc1nc(Cl)nc(NC(C)(C)C#N)n1,2.2,1.6708799999999997,0.5291200000000005,Duplicate structure,same structure as input row 1329 (CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C#N); experimental values differ by 0
+logP,2953,,Cc1cc(N)nc(C)n1,0.4,0.6756399999999999,-0.2756399999999999,Duplicate structure,same structure as input row 1500 (CC1=CC(=NC(=N1)C)N); experimental values differ by 0
+logP,2955,,NC1CCC1,0.2,0.4975999999999999,-0.29759999999999986,Duplicate structure,same structure as input row 284 (C1CC(C1)N); experimental values differ by 0
+logP,2957,,NC1CCCCC1,1.5,1.2778,0.22219999999999995,Duplicate structure,same structure as input row 12 (C1CCC(CC1)N); experimental values differ by 0
+logP,2958,,NC1CCCCCCC1,1.3,2.058,-0.7579999999999998,Duplicate structure,same structure as input row 293 (C1CCCC(CCC1)N); experimental values differ by 0
+logP,2959,,NC1CCCC1,0.6,0.8876999999999999,-0.28769999999999996,Duplicate structure,same structure as input row 294 (C1CCC(C1)N); experimental values differ by 0
+logP,2960,,NC1CC1,0.1,0.1074999999999999,-0.007499999999999896,Duplicate structure,same structure as input row 295 (C1CC1N); experimental values differ by 0
+logP,2964,,Nc1nc(N)nc(NC2CC2)n1,-0.2,-0.3897000000000006,0.1897000000000006,Duplicate structure,same structure as input row 1355 (C1CC1NC2=NC(=NC(=N2)N)N); experimental values differ by 0
+logP,2965,,NC1=NC(=O)NC=C1,-1.7,-0.6479000000000004,-1.0520999999999996,Duplicate structure,same structure as input row 1359 (C1=C(NC(=O)N=C1)N); experimental values differ by 0
+logP,2967,,CN(C)NC(=O)CCC(O)=O,-3.1,-0.556,-2.544,Duplicate structure,same structure as input row 1360 (CN(C)NC(=O)CCC(=O)O); experimental values differ by 0
+logP,2971,,CC(=O)NC(C)=O,-1.4,-0.3309999999999999,-1.069,Duplicate structure,same structure as input row 106 (CC(=O)NC(=O)C); experimental values differ by 0
+logP,2977,,OCCNCCO,-1.4,-1.4393999999999998,0.03939999999999988,Duplicate structure,same structure as input row 15 (C(CO)NCCO); experimental values differ by 0
+logP,2983,,CCN(CC)C(Cl)=O,1.4,1.687,-0.28700000000000014,Duplicate structure,same structure as input row 338 (CCN(CC)C(=O)Cl); experimental values differ by 0
+logP,2984,,OCCCN(CC)CC,0.7,0.7106000000000001,-0.010600000000000165,Duplicate structure,same structure as input row 332 (CCN(CC)CCCO); experimental values differ by 0
+logP,2995,,CN(C)C(Cl)=O,0.8,0.9068,-0.1068,Duplicate structure,same structure as input row 398 (CN(C)C(=O)Cl); experimental values differ by 0
+logP,2998,,CN(C)[N+]([O-])=O,0.6,-0.2603000000000001,0.8603000000000001,Duplicate structure,same structure as input row 676 (CN(C)[N+](=O)[O-]); experimental values differ by 0
+logP,3002,,ClC(=O)N(c1ccccc1)c2ccccc2,3.8,4.183500000000002,-0.3835000000000024,Duplicate structure,same structure as input row 1551 (C1=CC=C(C=C1)N(C2=CC=CC=C2)C(=O)Cl); experimental values differ by 0
+logP,3005,,CCCCCCCCCCCC(N)=O,3.5,3.3926000000000007,0.10739999999999927,Duplicate structure,same structure as input row 1570 (CCCCCCCCCCCC(=O)N); experimental values differ by 0
+logP,3010,,CCN(CC(C)=C)c1c(cc(cc1[N+]([O-])=O)C(F)(F)F)[N+]([O-])=O,5.1,3.924200000000004,1.1757999999999957,Duplicate structure,same structure as input row 1581 (CCN(CC(=C)C)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]); experimental values differ by 0
+logP,3011,,NC(=O)C(N)=O,-1.6,-2.043,0.44300000000000006,Duplicate structure,same structure as input row 1979 (C(=O)(C(=O)N)N); experimental values differ by 0
+logP,3012,,NCCO,-1.3,-1.0626000000000002,-0.23739999999999983,Duplicate structure,same structure as input row 29 (C(CO)N); experimental values differ by 0
+logP,3016,,CCOC(=O)c(cc1)ccc1N(C)C,2.9,1.9293,0.9706999999999999,Duplicate structure,same structure as input row 1602 (CCOC(=O)C1=CC=C(C=C1)N(C)C); experimental values differ by 0
+logP,3017,,CCOC(=O)NC(N)=O,0.1,-0.1887999999999999,0.28879999999999995,Duplicate structure,same structure as input row 1594 (CCOC(=O)NC(=O)N); experimental values differ by 0
+logP,3021,,CCOC(=O)Nc1ccccc1,2.3,2.255,0.04499999999999993,Duplicate structure,same structure as input row 1614 (CCOC(=O)NC1=CC=CC=C1); experimental values differ by 0
+logP,3022,,CCOC(=O)NCCOc1ccc(Oc2ccccc2)cc1,4.3,3.6038000000000014,0.6961999999999984,Duplicate structure,same structure as input row 1622 (CCOC(=O)NCCOC1=CC=C(C=C1)OC2=CC=CC=C2); experimental values differ by 0
+logP,3023,,CCCN(CCCl)c1c(cc(cc1[N+]([O-])=O)C(F)(F)F)[N+]([O-])=O,5.0,3.977000000000003,1.022999999999997,Duplicate structure,same structure as input row 1626 (CCCN(CCCl)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]); experimental values differ by 0
+logP,3024,,FC(F)(F)c1cc(Nc2ccccc2C(O)=O)ccc1,5.2,4.147200000000002,1.0527999999999977,Duplicate structure,same structure as input row 2169 (C1=CC=C(C(=C1)C(=O)O)NC2=CC=CC(=C2)C(F)(F)F); experimental values differ by 0
+logP,3031,,NCc1occc1,0.4,0.7383000000000001,-0.33830000000000005,Duplicate structure,same structure as input row 548 (C1=COC(=C1)CN); experimental values differ by 0
+logP,3035,,CN(C)CC(O)=O,-2.9,-0.3674,-2.5326,Duplicate structure,same structure as input row 1487 (CN(C)CC(=O)O); experimental values differ by 0
+logP,3039,,CCCCCCCCCCCCCCCC(N)=O,5.7,4.953000000000004,0.7469999999999963,Duplicate structure,same structure as input row 1653 (CCCCCCCCCCCCCCCC(=O)N); experimental values differ by 0
+logP,3041,,CCCCCC(N)=O,1.3,1.052,0.248,Duplicate structure,same structure as input row 560 (CCCCCC(=O)N); experimental values differ by 0
+logP,3042,,NCCc1c[nH]cn1,-0.7,-0.0891000000000003,-0.6108999999999997,Duplicate structure,same structure as input row 1659 (C1=C(NC=N1)CCN); experimental values differ by 0
+logP,3043,,N(Nc1ccccc1)c2ccccc2,2.9,3.1256000000000013,-0.22560000000000136,Duplicate structure,same structure as input row 1555 (C1=CC=C(C=C1)NNC2=CC=CC=C2); experimental values differ by 0
+logP,3045,,NC(=O)NO,-1.8,-0.9561000000000002,-0.8438999999999999,Duplicate structure,same structure as input row 1697 (C(=O)(N)NO); experimental values differ by 0
+logP,3048,,OC(=O)CNCC(O)=O,-3.3,-1.2548,-2.0452,Duplicate structure,same structure as input row 1706 (C(C(=O)O)NCC(=O)O); experimental values differ by 0
+logP,3050,,Nc1ccc2[nH]ccc2c1,0.7,1.7500999999999998,-1.0500999999999998,Duplicate structure,same structure as input row 1709 (C1=CC2=C(C=CN2)C=C1N); experimental values differ by 0
+logP,3056,,CNC(C)C,0.6,0.6141999999999999,-0.01419999999999988,Duplicate structure,same structure as input row 35 (CC(C)NC); experimental values differ by 0
+logP,3057,,CC(CCc1ccccc1)NCC(O)c2ccc(O)c(c2)C(N)=O,3.1,2.1354,0.9645999999999999,Duplicate structure,same structure as input row 1746 (CC(CCC1=CC=CC=C1)NCC(C2=CC(=C(C=C2)O)C(=O)N)O); experimental values differ by 0
+logP,3060,,CCN(CC)CC(=O)Nc1c(C)cccc1C,2.3,2.5837400000000006,-0.28374000000000077,Duplicate structure,same structure as input row 1424 (CCN(CC)CC(=O)NC1=C(C=CC=C1C)C); experimental values differ by 0
+logP,3073,,CNC(=O)Oc1cc(C)c(SC)c(C)c1,2.9,2.743540000000001,0.1564599999999987,Duplicate structure,same structure as input row 1763 (CC1=CC(=CC(=C1SC)C)OC(=O)NC); experimental values differ by 0
+logP,3078,,CCc1cccc(N)c1,2.1,1.8312,0.26880000000000015,Duplicate structure,same structure as input row 482 (CCC1=CC(=CC=C1)N); experimental values differ by 0
+logP,3082,,COC(=O)c1ccc(N)cc1,1.4,1.0554,0.3446,Duplicate structure,same structure as input row 1786 (COC(=O)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,3085,,Nc1cccc(F)c1,1.3,1.4079,-0.10789999999999988,Duplicate structure,same structure as input row 534 (C1=CC(=CC(=C1)F)N); experimental values differ by 0
+logP,3086,,CC(=O)Nc1cccc(O)c1,0.7,1.3505999999999998,-0.6505999999999998,Duplicate structure,same structure as input row 1687 (CC(=O)NC1=CC(=CC=C1)O); experimental values differ by 0
+logP,3088,,CC(C)Nc1ccccc1,2.5,2.506900000000001,-0.006900000000000794,Duplicate structure,same structure as input row 581 (CC(C)NC1=CC=CC=C1); experimental values differ by 0
+logP,3089,,CC(C)NCc1ccccc1,2.3,2.1846,0.11539999999999973,Duplicate structure,same structure as input row 160 (CC(C)NCC1=CC=CC=C1); experimental values differ by 0
+logP,3091,,NCCNCCN,-2.1,-1.506599999999999,-0.593400000000001,Duplicate structure,same structure as input row 79 (C(CNCCN)N); experimental values differ by 0
+logP,3095,,Cc1ccccc1NC(C)=O,0.9,1.95342,-1.05342,Duplicate structure,same structure as input row 684 (CC1=CC=CC=C1NC(=O)C); experimental values differ by 0
+logP,3096,,NCCCN(C)CCCN,-0.9,-0.3841999999999985,-0.5158000000000016,Duplicate structure,same structure as input row 133 (CN(CCCN)CCCN); experimental values differ by 0
+logP,3115,,CNC(=O)NC(C)=O,-0.7,-0.5381,-0.16189999999999993,Duplicate structure,same structure as input row 615 (CC(=O)NC(=O)NC); experimental values differ by 0
+logP,3125,,CNc1ccccc1C,2.2,2.03672,0.1632800000000003,Duplicate structure,same structure as input row 386 (CC1=CC=CC=C1NC); experimental values differ by 0
+logP,3128,,CNc1cccc(C)c1,2.6,2.03672,0.5632800000000002,Duplicate structure,same structure as input row 387 (CC1=CC(=CC=C1)NC); experimental values differ by 0
+logP,3131,,CNc1ccc(C)cc1,2.1,2.03672,0.06328000000000022,Duplicate structure,same structure as input row 388 (CC1=CC=C(C=C1)NC); experimental values differ by 0
+logP,3132,,CNC(C)CCC=C(C)C,2.5,2.3407,0.1593,Duplicate structure,same structure as input row 407 (CC(CCC=C(C)C)NC); experimental values differ by 0
+logP,3134,,CNCC(C)c1ccccc1,2.1,2.0095,0.09050000000000002,Duplicate structure,same structure as input row 391 (CC(CNC)C1=CC=CC=C1); experimental values differ by 0
+logP,3140,,CN(C)c1ccc(C)cc1,2.8,2.06102,0.7389799999999997,Duplicate structure,same structure as input row 648 (CC1=CC=C(C=C1)N(C)C); experimental values differ by 0
+logP,3142,,CN(C)c1ccccc1N(C)C,2.2,1.8186,0.3814000000000002,Duplicate structure,same structure as input row 900 (CN(C)C1=CC=CC=C1N(C)C); experimental values differ by 0
+logP,3145,,CN(C)c1ccc(cc1)N(C)C,2.6,1.8186,0.7814000000000001,Duplicate structure,same structure as input row 901 (CN(C)C1=CC=C(C=C1)N(C)C); experimental values differ by 0
+logP,3148,,NCCNCCNCCN,-2.5,-1.916999999999998,-0.583000000000002,Duplicate structure,same structure as input row 172 (C(CNCCNCCN)N); experimental values differ by 0
+logP,3149,,OCCN(CC)CCO,0.1,-0.7071000000000003,0.8071000000000003,Duplicate structure,same structure as input row 175 (CCN(CCO)CCO); experimental values differ by 0
+logP,3162,,CCN(CC)c1ccc(N)cc1,2.2,2.115,0.08499999999999996,Duplicate structure,same structure as input row 336 (CCN(CC)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,3166,,CCN(CC)c1ccccc1C,3.6,2.8412200000000007,0.7587799999999993,Duplicate structure,same structure as input row 345 (CCN(CC)C1=CC=CC=C1C); experimental values differ by 0
+logP,3169,,CCN(CC)c(cc1)ccc1C,3.5,2.8412200000000007,0.6587799999999993,Duplicate structure,same structure as input row 346 (CCN(CC)C1=CC=C(C=C1)C); experimental values differ by 0
+logP,3170,,CCN(CC)c1ccc(cc1)[N+]([O-])=O,3.0,2.4410000000000007,0.5589999999999993,Duplicate structure,same structure as input row 1434 (CCN(CC)C1=CC=C(C=C1)[N+](=O)[O-]); experimental values differ by 0
+logP,3172,,CCN(CC)c1ccccc1,3.3,2.532800000000001,0.767199999999999,Duplicate structure,same structure as input row 335 (CCN(CC)C1=CC=CC=C1); experimental values differ by 0
+logP,3173,,CCN(CC)C(=O)c1cccnc1,0.3,1.5636,-1.2636,Duplicate structure,same structure as input row 1438 (CCN(CC)C(=O)C1=CN=CC=C1); experimental values differ by 0
+logP,3174,,CCN(CC)C(=O)CC,0.9,1.2648,-0.3647999999999999,Duplicate structure,same structure as input row 350 (CCC(=O)N(CC)CC); experimental values differ by 0
+logP,3190,,CN(C)c1ccccc1[N+]([O-])=O,1.9,1.6607999999999998,0.23920000000000008,Duplicate structure,same structure as input row 1491 (CN(C)C1=CC=CC=C1[N+](=O)[O-]); experimental values differ by 0
+logP,3192,,CN(C)c1ccccn1,1.6,1.1476,0.45240000000000014,Duplicate structure,same structure as input row 435 (CN(C)C1=CC=CC=N1); experimental values differ by 0
+logP,3194,,CN(C)c1cc(ccc1)N(=O)=O,2.2,1.6607999999999998,0.5392000000000003,Duplicate structure,same structure as input row 416 (CN(C)C1=CC(=CC=C1)[N+](=O)[O-]); experimental values differ by 0
+logP,3198,,CN(C)c1ccc(cc1)N(=O)=O,2.3,1.6607999999999998,0.6392,Duplicate structure,same structure as input row 1492 (CN(C)C1=CC=C(C=C1)[N+](=O)[O-]); experimental values differ by 0
+logP,3199,,CN(C)C(C)=O,-0.8,0.0945,-0.8945000000000001,Duplicate structure,same structure as input row 372 (CC(=O)N(C)C); experimental values differ by 0
+logP,3202,,CN(C)c1ccccc1,2.3,1.7526,0.5473999999999999,Duplicate structure,same structure as input row 84 (CN(C)C1=CC=CC=C1); experimental values differ by 0
+logP,3203,,CN(C)C(=O)c1ccccc1,0.6,1.3884,-0.7884000000000001,Duplicate structure,same structure as input row 389 (CN(C)C(=O)C1=CC=CC=C1); experimental values differ by 0
+logP,3204,,CN(C)Cc1ccccc1,2.0,1.7482,0.2518,Duplicate structure,same structure as input row 395 (CN(C)CC1=CC=CC=C1); experimental values differ by 0
+logP,3211,,CN(C)c1cccc(C)c1,2.8,2.06102,0.7389799999999997,Duplicate structure,same structure as input row 647 (CC1=CC(=CC=C1)N(C)C); experimental values differ by 0
+logP,3215,,CN(C)c1ccccc1C,2.9,2.06102,0.8389799999999998,Duplicate structure,same structure as input row 92 (CC1=CC=CC=C1N(C)C); experimental values differ by 0
+logP,3220,,CN(C)c1ccc(N)cc1,1.8,1.3348,0.46520000000000006,Duplicate structure,same structure as input row 390 (CN(C)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,3225,,N(c1ccccc1)c1ccc(Nc2ccccc2)cc1,5.0,5.173800000000004,-0.1738000000000044,Duplicate structure,same structure as input row 1549 (C1=CC=C(C=C1)NC2=CC=C(C=C2)NC3=CC=CC=C3); experimental values differ by 0
+logP,3226,,CC(=O)N(c1ccccc1)c2ccccc2,2.7,3.3712000000000018,-0.6712000000000016,Duplicate structure,same structure as input row 1548 (CC(=O)N(C1=CC=CC=C1)C2=CC=CC=C2); experimental values differ by 0
+logP,3228,,c(cc1)ccc1N(c1ccccc1)c1ccccc1,5.7,5.156400000000003,0.543599999999997,Duplicate structure,same structure as input row 958 (C1=CC=C(C=C1)N(C2=CC=CC=C2)C3=CC=CC=C3); experimental values differ by 0
+logP,3230,,CCCN(CCC)C(C)=O,1.5,1.6549,-0.15490000000000004,Duplicate structure,same structure as input row 460 (CCCN(CCC)C(=O)C); experimental values differ by 0
+logP,3235,,CC(=O)NCC(O)=O,-1.2,-0.7929000000000002,-0.4070999999999998,Duplicate structure,same structure as input row 980 (CC(=O)NCC(=O)O); experimental values differ by 0
+logP,3239,,CSCCC(NC(C)=O)C(O)=O,0.1,0.3288,-0.22879999999999998,Duplicate structure,same structure as input row 981 (CC(=O)NC(CCSC)C(=O)O); experimental values differ by 0
+logP,3241,,CN(C(C)=O)C(C)=O,-0.5,0.0112,-0.5112,Duplicate structure,same structure as input row 107 (CC(=O)N(C)C(=O)C); experimental values differ by 0
+logP,3244,,C=CCNc1ccccc1,2.5,2.2845000000000004,0.21549999999999958,Duplicate structure,same structure as input row 110 (C=CCNC1=CC=CC=C1); experimental values differ by 0
+logP,3245,,CCN(CC)C(=O)C(C)Oc1cccc2ccccc12,3.4,3.475500000000002,-0.07550000000000212,Duplicate structure,same structure as input row 1870 (CCN(CC)C(=O)C(C)OC1=CC=CC2=CC=CC=C21); experimental values differ by 0
+logP,3246,,C(NCc1ccccc1)c2ccccc2,2.7,2.9764000000000017,-0.27640000000000153,Duplicate structure,same structure as input row 1389 (C1=CC=C(C=C1)CNCC2=CC=CC=C2); experimental values differ by 0
+logP,3247,,CC(=O)NCc1ccccc1,1.0,1.3227,-0.3227,Duplicate structure,same structure as input row 1140 (CC(=O)NCC1=CC=CC=C1); experimental values differ by 0
+logP,3249,,CCCCNc1ccccc1,2.8,2.898600000000001,-0.09860000000000113,Duplicate structure,same structure as input row 208 (CCCCNC1=CC=CC=C1); experimental values differ by 0
+logP,3252,,C(CC1)CCC1NC1CCCCC1,3.4,3.2414000000000023,0.15859999999999763,Duplicate structure,same structure as input row 324 (C1CCC(CC1)NC2CCCCC2); experimental values differ by 0
+logP,3263,,CCNCC(C)=C,1.4,1.172,0.22799999999999998,Duplicate structure,same structure as input row 503 (CCNCC(=C)C); experimental values differ by 0
+logP,3264,,CCNc1ccccc1C,2.5,2.42682,0.0731799999999998,Duplicate structure,same structure as input row 506 (CCNC1=CC=CC=C1C); experimental values differ by 0
+logP,3271,,CCNc1cccc(C)c1,3.0,2.42682,0.5731799999999998,Duplicate structure,same structure as input row 507 (CCNC1=CC=CC(=C1)C); experimental values differ by 0
+logP,3272,,CCNc1ccc(C)cc1,2.5,2.42682,0.0731799999999998,Duplicate structure,same structure as input row 508 (CCNC1=CC=C(C=C1)C); experimental values differ by 0
+logP,3274,,CCNC(C)=O,-0.1,0.1424000000000001,-0.24240000000000012,Duplicate structure,same structure as input row 475 (CCNC(=O)C); experimental values differ by 0
+logP,3275,,CCNc1ccccc1,2.2,2.1184,0.08160000000000034,Duplicate structure,same structure as input row 484 (CCNC1=CC=CC=C1); experimental values differ by 0
+logP,3281,,CCN(O)CC,0.5,0.7174,-0.21740000000000004,Duplicate structure,same structure as input row 501 (CCN(CC)O); experimental values differ by 0
+logP,3282,,CCN(C)c1ccccc1,2.9,2.1427,0.7572999999999999,Duplicate structure,same structure as input row 509 (CCN(C)C1=CC=CC=C1); experimental values differ by 0
+logP,3285,,CCN(C(C)=O)c1ccccc1,1.6,2.0594,-0.45940000000000003,Duplicate structure,same structure as input row 519 (CCN(C1=CC=CC=C1)C(=O)C); experimental values differ by 0
+logP,3289,,Cc1ccc(NO)cc1,1.7,1.7961199999999995,-0.09611999999999954,Duplicate structure,same structure as input row 1679 (CC1=CC=C(C=C1)NO); experimental values differ by 0
+logP,3292,,NC(=O)c1cccnc1,-0.4,0.1805000000000001,-0.5805000000000001,Duplicate structure,same structure as input row 2073 (C1=CC(=CN=C1)C(=O)N); experimental values differ by 0
+logP,3293,,Oc1ccc(Cl)cc1C(=O)Nc2ccc(cc2Cl)[N+]([O-])=O,4.0,3.8595000000000006,0.1404999999999994,Duplicate structure,same structure as input row 1874 (C1=CC(=C(C=C1[N+](=O)[O-])Cl)NC(=O)C2=C(C=CC(=C2)Cl)O); experimental values differ by 0
+logP,3296,,NC(=O)N[N+]([O-])=O,-0.9,-1.1536,0.25359999999999994,Duplicate structure,same structure as input row 1955 (C(=O)(N)N[N+](=O)[O-]); experimental values differ by 0
+logP,3299,,CNc1cccc2ccccc12,2.9,2.8815000000000017,0.018499999999998185,Duplicate structure,same structure as input row 673 (CNC1=CC=CC2=CC=CC=C21); experimental values differ by 0
+logP,3300,,CNCc1occc1,0.5,0.999,-0.499,Duplicate structure,same structure as input row 654 (CNCC1=CC=CO1); experimental values differ by 0
+logP,3301,,CNC(C)=O,-1.1,-0.2477,-0.8523000000000001,Duplicate structure,same structure as input row 612 (CC(=O)NC); experimental values differ by 0
+logP,3302,,CN(C(C)=O)c1ccccc1,1.1,1.6693,-0.5692999999999999,Duplicate structure,same structure as input row 686 (CC(=O)N(C)C1=CC=CC=C1); experimental values differ by 0
+logP,3303,,CNc1ccccc1,1.7,1.7283,-0.028299999999999992,Duplicate structure,same structure as input row 91 (CNC1=CC=CC=C1); experimental values differ by 0
+logP,3304,,CNC(=O)c1ccccc1,0.9,1.0462,-0.1462,Duplicate structure,same structure as input row 616 (CNC(=O)C1=CC=CC=C1); experimental values differ by 0
+logP,3305,,CNCCc1ccccc1,1.9,1.4485,0.4515,Duplicate structure,same structure as input row 625 (CNCCC1=CC=CC=C1); experimental values differ by 0
+logP,3322,,CNc1ccccc1[N+]([O-])=O,2.2,1.6364999999999998,0.5635000000000003,Duplicate structure,same structure as input row 1822 (CNC1=CC=CC=C1[N+](=O)[O-]); experimental values differ by 0
+logP,3329,,CNc1ccncc1,0.8,1.1232999999999995,-0.3232999999999995,Duplicate structure,same structure as input row 1844 (CNC1=CC=NC=C1); experimental values differ by 0
+logP,3341,,Nc1ccc(Nc2ccccc2)cc1,2.5,3.0124000000000013,-0.5124000000000013,Duplicate structure,same structure as input row 799 (C1=CC=C(C=C1)NC2=CC=C(C=C2)N); experimental values differ by 0
+logP,3342,,N(c1ccccc1)c2cccc3ccccc23,4.4,4.583400000000003,-0.18340000000000245,Duplicate structure,same structure as input row 2032 (C1=CC=C(C=C1)NC2=CC=CC3=CC=CC=C32); experimental values differ by 0
+logP,3343,,N(c1ccccc1)c2ccc3ccccc3c2,5.1,4.583400000000003,0.5165999999999968,Duplicate structure,same structure as input row 807 (C1=CC=C(C=C1)NC2=CC3=CC=CC=C3C=C2); experimental values differ by 0
+logP,3345,,O=C(Nc1ccccc1)c2ccccc2,2.6,2.938900000000001,-0.3389000000000011,Duplicate structure,same structure as input row 2017 (C1=CC=C(C=C1)C(=O)NC2=CC=CC=C2); experimental values differ by 0
+logP,3346,,N(c1ccccc1)c1ccccc1,3.5,3.430200000000002,0.06979999999999809,Duplicate structure,same structure as input row 456 (C1=CC=C(C=C1)NC2=CC=CC=C2); experimental values differ by 0
+logP,3347,,N(Cc1ccccc1)c1ccccc1,3.1,3.298700000000002,-0.19870000000000188,Duplicate structure,same structure as input row 157 (C1=CC=C(C=C1)CNC2=CC=CC=C2); experimental values differ by 0
+logP,3348,,OC(=O)CNc1ccccc1,0.6,1.1831,-0.5831000000000001,Duplicate structure,same structure as input row 2023 (C1=CC=C(C=C1)NCC(=O)O); experimental values differ by 0
+logP,3349,,NNC(=O)Nc1ccccc1,0.4,0.6818,-0.28179999999999994,Duplicate structure,same structure as input row 2025 (C1=CC=C(C=C1)NC(=O)NN); experimental values differ by 0
+logP,3351,,CCCNc1ccccc1,2.5,2.5085000000000006,-0.008500000000000618,Duplicate structure,same structure as input row 836 (CCCNC1=CC=CC=C1); experimental values differ by 0
+logP,3356,,CCOC(=O)c1ccccc1N,2.6,1.4455,1.1545,Duplicate structure,same structure as input row 477 (CCOC(=O)C1=CC=CC=C1N); experimental values differ by 0
+logP,3357,,COc1ccccc1N,1.2,1.2774,-0.07740000000000014,Duplicate structure,same structure as input row 590 (COC1=CC=CC=C1N); experimental values differ by 0
+logP,3359,,CN(C)c1ccccc1Cl,2.7,2.4060000000000006,0.2939999999999996,Duplicate structure,same structure as input row 235 (CN(C)C1=CC=CC=C1Cl); experimental values differ by 0
+logP,3360,,CCCCCCCCCCCCCCCCCC(N)=O,6.8,5.7332000000000045,1.0667999999999953,Duplicate structure,same structure as input row 1969 (CCCCCCCCCCCCCCCCCC(=O)N); experimental values differ by 0
+logP,3361,,CCCCCCCC(N)=O,2.4,1.8322,0.5677999999999999,Duplicate structure,same structure as input row 772 (CCCCCCCC(=O)N); experimental values differ by 0
+logP,3362,,Nc1ccccc1F,1.3,1.4079,-0.10789999999999988,Duplicate structure,same structure as input row 533 (C1=CC=C(C(=C1)N)F); experimental values differ by 0
+logP,3363,,CC(=O)Nc1ccccc1O,0.7,1.3505999999999998,-0.6505999999999998,Duplicate structure,same structure as input row 1686 (CC(=O)NC1=CC=CC=C1O); experimental values differ by 0
+logP,3364,,NC(=O)c1ccccc1O,1.3,0.4911,0.8089000000000001,Duplicate structure,same structure as input row 1666 (C1=CC=C(C(=C1)C(=O)N)O); experimental values differ by 0
+logP,3365,,COc1ccccc1NC(C)=O,1.1,1.6535999999999995,-0.5535999999999994,Duplicate structure,same structure as input row 605 (CC(=O)NC1=CC=CC=C1OC); experimental values differ by 0
+logP,3368,,NC(=O)C(O)=O,-0.9,-1.4437000000000002,0.5437000000000002,Duplicate structure,same structure as input row 1978 (C(=O)(C(=O)O)N); experimental values differ by 0
+logP,3373,,CC(=O)Nc1ccc(N)cc1,0.1,1.2271999999999998,-1.1271999999999998,Duplicate structure,same structure as input row 125 (CC(=O)NC1=CC=C(C=C1)N); experimental values differ by 0
+logP,3375,,COc1ccc(N)cc1,0.9,1.2774,-0.37740000000000007,Duplicate structure,same structure as input row 592 (COC1=CC=C(C=C1)N); experimental values differ by 0
+logP,3377,,CC(=O)Nc1ccc(Cl)cc1,2.1,2.2984,-0.1983999999999999,Duplicate structure,same structure as input row 264 (CC(=O)NC1=CC=C(C=C1)Cl); experimental values differ by 0
+logP,3379,,CN(C)c1ccncc1,1.3,1.1476,0.1524000000000001,Duplicate structure,same structure as input row 1498 (CN(C)C1=CC=NC=C1); experimental values differ by 0
+logP,3380,,CC(C)(S)C(N)C(O)=O,-1.8,0.1066999999999998,-1.9066999999999998,Duplicate structure,same structure as input row 1760 (CC(C)(C(C(=O)O)N)S); experimental values differ by 0
+logP,3381,,CCC(CC)Nc1c(cc(C)c(C)c1[N+]([O-])=O)[N+]([O-])=O,5.2,3.720340000000003,1.4796599999999973,Duplicate structure,same structure as input row 1992 (CCC(CC)NC1=C(C=C(C(=C1[N+](=O)[O-])C)C)[N+](=O)[O-]); experimental values differ by 0
+logP,3386,,CCCCC(N)=O,0.7,0.6619,0.03809999999999991,Duplicate structure,same structure as input row 781 (CCCCC(=O)N); experimental values differ by 0
+logP,3387,,Nc1ccc(F)cc1,1.1,1.4079,-0.30789999999999984,Duplicate structure,same structure as input row 535 (C1=CC(=CC=C1N)F); experimental values differ by 0
+logP,3389,,CCOc1ccc(NC(C)=O)cc1,1.6,2.0437,-0.44369999999999976,Duplicate structure,same structure as input row 1591 (CCOC1=CC=C(C=C1)NC(=O)C); experimental values differ by 0
+logP,3390,,N1c2ccccc2Sc3ccccc13,4.2,3.894800000000001,0.30519999999999925,Duplicate structure,same structure as input row 793 (C1=CC=C2C(=C1)NC3=CC=CC=C3S2); experimental values differ by 0
+logP,3395,,NC(=O)Nc1ccccc1,0.8,1.1772000000000002,-0.3772000000000002,Duplicate structure,same structure as input row 823 (C1=CC=C(C=C1)NC(=O)N); experimental values differ by 0
+logP,3398,,NC(=O)c1ccccn1,0.2,0.1804999999999999,0.0195000000000001,Duplicate structure,same structure as input row 2072 (C1=CC=NC(=C1)C(=O)N); experimental values differ by 0
+logP,3399,,Nc1c(cc(cc1[N+]([O-])=O)[N+]([O-])=O)[N+]([O-])=O,0.6,0.9933999999999998,-0.39339999999999986,Duplicate structure,same structure as input row 2178 (C1=C(C=C(C(=C1[N+](=O)[O-])N)[N+](=O)[O-])[N+](=O)[O-]); experimental values differ by 0
+logP,3400,,CC(C)c1ccc(N)cc1,2.2,2.3922000000000008,-0.1922000000000006,Duplicate structure,same structure as input row 580 (CC(C)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,3401,,COc1ccc(cc1)C(=O)N,0.9,0.7941,0.1059,Duplicate structure,same structure as input row 593 (COC1=CC=C(C=C1)C(=O)N); experimental values differ by 0
+logP,3402,,CNc1ccc(cc1)[N+]([O-])=O,2.0,1.6364999999999998,0.36350000000000016,Duplicate structure,same structure as input row 1823 (CNC1=CC=C(C=C1)[N+](=O)[O-]); experimental values differ by 0
+logP,3403,,CCN(CC)CCOC(=O)c1ccc(N)cc1,1.9,1.7674,0.13259999999999983,Duplicate structure,same structure as input row 1426 (CCN(CC)CCOC(=O)C1=CC=C(C=C1)N); experimental values differ by 0
+logP,3404,,CCCN(CC1CC1)c2c(cc(cc2[N+]([O-])=O)C(F)(F)F)[N+]([O-])=O,5.2,4.148200000000004,1.0517999999999965,Duplicate structure,same structure as input row 2049 (CCCN(CC1CC1)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]); experimental values differ by 0
+logP,3406,,COc1nc(NC(C)C)nc(NC(C)C)n1,3.0,1.5208,1.4792,Duplicate structure,same structure as input row 2051 (CC(C)NC1=NC(=NC(=N1)OC)NC(C)C); experimental values differ by 0
+logP,3407,,CSc1nc(NC(C)C)nc(NC(C)C)n1,3.5,2.2341,1.2658999999999998,Duplicate structure,same structure as input row 2052 (CC(C)NC1=NC(=NC(=N1)SC)NC(C)C); experimental values differ by 0
+logP,3408,,CC(C)N(C(=O)CCl)c1ccccc1,2.2,2.666800000000001,-0.466800000000001,Duplicate structure,same structure as input row 2053 (CC(C)N(C1=CC=CC=C1)C(=O)CCl); experimental values differ by 0
+logP,3409,,CCC(N)=O,-0.7,-0.1182999999999999,-0.5817000000000001,Duplicate structure,same structure as input row 830 (CCC(=O)N); experimental values differ by 0
+logP,3410,,NC(=O)CC(N)=O,-1.8,-1.6528999999999998,-0.14710000000000023,Duplicate structure,same structure as input row 2054 (C(C(=O)N)C(=O)N); experimental values differ by 0
+logP,3411,,CCC(=O)Nc1ccc(Cl)c(Cl)c1,3.1,3.3419000000000016,-0.24190000000000156,Duplicate structure,same structure as input row 2055 (CCC(=O)NC1=CC(=C(C=C1)Cl)Cl); experimental values differ by 0
+logP,3412,,CC(C)Nc1nc(Cl)nc(NC(C)C)n1,2.9,2.1655999999999995,0.7344000000000004,Duplicate structure,same structure as input row 2056 (CC(C)NC1=NC(=NC(=N1)Cl)NC(C)C); experimental values differ by 0
+logP,3414,,CC(C)NCC(O)COc1cccc2ccccc12,3.0,2.577500000000001,0.422499999999999,Duplicate structure,same structure as input row 2059 (CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O); experimental values differ by 0
+logP,3415,,CNC(C)CC1CCCCC1,3.5,2.564700000000001,0.9352999999999989,Duplicate structure,same structure as input row 400 (CC(CC1CCCCC1)NC); experimental values differ by 0
+logP,3416,,Nc1ccc(cc1)C(F)(F)F,2.4,2.2876000000000003,0.11239999999999961,Duplicate structure,same structure as input row 2167 (C1=CC(=CC=C1C(F)(F)F)N); experimental values differ by 0
+logP,3417,,NC(=O)c1cnccn1,-0.6,-0.4245000000000001,-0.17549999999999988,Duplicate structure,same structure as input row 2067 (C1=CN=C(C=N1)C(=O)N); experimental values differ by 0
+logP,3420,,ONC(=O)c1ccccc1O,0.9,0.5111999999999999,0.38880000000000015,Duplicate structure,same structure as input row 1452 (C1=CC=C(C(=C1)C(=O)NO)O); experimental values differ by 0
+logP,3421,,CCNc1nc(NC(C)CC)nc(OC)n1,3.2,1.5223999999999998,1.6776000000000004,Duplicate structure,same structure as input row 1200 (CCC(C)NC1=NC(=NC(=N1)NCC)OC); experimental values differ by 0
+logP,3422,,NNC(N)=O,-1.8,-1.4716000000000005,-0.3283999999999996,Duplicate structure,same structure as input row 1663 (C(=O)(N)NN); experimental values differ by 0
+logP,3424,,CCNc1nc(Cl)nc(NCC)n1,2.2,1.3885999999999998,0.8114000000000003,Duplicate structure,same structure as input row 2116 (CCNC1=NC(=NC(=N1)Cl)NCC); experimental values differ by 0
+logP,3425,,NC(=O)CCC(N)=O,-2.1,-1.2628,-0.8372000000000002,Duplicate structure,same structure as input row 877 (C(CC(=O)N)C(=O)N); experimental values differ by 0
+logP,3426,,CCNc1nc(Cl)nc(NC(C)(C)C)n1,3.1,2.1672,0.9328000000000003,Duplicate structure,same structure as input row 2125 (CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C); experimental values differ by 0
+logP,3427,,CCNc1nc(NC(C)(C)C)nc(SC)n1,3.7,2.2357,1.4643000000000002,Duplicate structure,same structure as input row 2126 (CCNC1=NC(=NC(=N1)SC)NC(C)(C)C); experimental values differ by 0
+logP,3428,,NC(=O)c1ccc(cc1)C(N)=O,0.7,-0.1155999999999998,0.8155999999999998,Duplicate structure,same structure as input row 1123 (C1=CC(=CC=C1C(=O)N)C(=O)N); experimental values differ by 0
+logP,3431,,CCCCCCCCCCCCCC(N)=O,4.6,4.172800000000002,0.42719999999999736,Duplicate structure,same structure as input row 2131 (CCCCCCCCCCCCCC(=O)N); experimental values differ by 0
+logP,3432,,NCCNCCNCCNCCN,-2.9,-2.327399999999997,-0.5726000000000031,Duplicate structure,same structure as input row 884 (C(CNCCNCCNCCN)N); experimental values differ by 0
+logP,3433,,NCC1CCCO1,-0.3,0.1240999999999996,-0.4240999999999996,Duplicate structure,same structure as input row 890 (C1CC(OC1)CN); experimental values differ by 0
+logP,3442,,C(N(Cc1ccccc1)Cc2ccccc2)c3ccccc3,4.7,4.889000000000004,-0.1890000000000036,Duplicate structure,same structure as input row 925 (C1=CC=C(C=C1)CN(CC2=CC=CC=C2)CC3=CC=CC=C3); experimental values differ by 0
+logP,3443,,NC(=O)C(Cl)(Cl)Cl,1.0,0.8418999999999999,0.15810000000000013,Duplicate structure,same structure as input row 927 (C(=O)(C(Cl)(Cl)Cl)N); experimental values differ by 0
+logP,3450,,CCCN(CCC)c1c(cc(cc1[N+]([O-])=O)C(F)(F)F)[N+]([O-])=O,5.3,4.148200000000004,1.1517999999999962,Duplicate structure,same structure as input row 2170 (CCCN(CCC)C1=C(C=C(C=C1[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-]); experimental values differ by 0
+logP,3451,,COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC,0.9,1.2575999999999998,-0.3575999999999998,Duplicate structure,same structure as input row 2173 (COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N); experimental values differ by 0
+logP,3453,,NC(CO)(CO)CO,-2.9,-2.3391999999999995,-0.5608000000000004,Duplicate structure,same structure as input row 2190 (C(C(CO)(CO)N)O); experimental values differ by 0
+logP,3458,,NC1C(=O)NC(=O)NC1=O,-2.1,-2.3203000000000005,0.22030000000000038,Duplicate structure,same structure as input row 1087 (C1(C(=O)NC(=O)NC1=O)N); experimental values differ by 0
+logP,3460,,NC(N)=O,-1.4,-0.9762000000000002,-0.42379999999999973,Duplicate structure,same structure as input row 2198 (C(=O)(N)N); experimental values differ by 0
+logP,3461,,CCOC(N)=O,-0.2,0.1016000000000002,-0.3016000000000002,Duplicate structure,same structure as input row 487 (CCOC(=O)N); experimental values differ by 0

@@ -1,0 +1,8 @@
+Property,Version,Rows_in_file,Usable_rows,Removed_range,Removed_GC_error,Removed_duplicates,Range,GC_error_fences,Curated_rows
+Tb,noOutlier,1030,1030,66,78,0,"[0, 600]","[-94.332, 68.507]",886
+Tm,noOutlier,1939,1939,0,100,0,"[0, 700]","[-287.245, 174.555]",1839
+Pc,allData,75,75,0,0,0,,,75
+Vc,allData,69,69,0,0,0,,,69
+Tc,noOutlier,75,75,2,3,0,"[0, 800]","[-84.525, 77.748]",70
+Hvap,noOutlier,75,75,0,5,0,"[10, 70]","[-7.647, 5.120]",70
+logP,allData,3536,3463,0,0,485,,,2978
