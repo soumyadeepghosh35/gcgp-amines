@@ -9,3 +9,4 @@ venv/
 *.pkl
 *.joblib
 *.h5
+.vscode/
