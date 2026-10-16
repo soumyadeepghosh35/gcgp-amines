@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      notebooks:
+        description: "Notebook prefixes to run in the fast check (empty = all)"
+        required: false
+        default: ""
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  environment:
+    name: Environment check
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Create the environment with the project script
+        run: bash scripts/setup_env.sh
+
+      - name: Import the package and check inputs
+        run: |
+          source .venv/bin/activate
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "src")
+          import gcgp, gcgp.gpModels, gcgp.crossValidation, gcgp.curation
+          import gcgp.settings as s
+          s.checkInputs(("model_building", "raw", "reference_results"))
+          print("Package imports and input files OK")
+          PY
+
+  notebooks-fast:
+    name: Notebooks (fast run)
+    runs-on: ubuntu-latest
+    needs: environment
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Create the environment
+        run: bash scripts/setup_env.sh
+
+      - name: Run notebooks in fast mode
+        run: bash scripts/run_notebooks.sh --fast ${{ github.event.inputs.notebooks }}
+
+      - name: Upload executed notebooks and log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebooks
+          path: Output_Data/executed_notebooks/
+          if-no-files-found: ignore
