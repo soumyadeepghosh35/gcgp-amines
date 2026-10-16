@@ -1,0 +1,15 @@
+Fast run: small data subsets, numbers are not final results.
+GP restarts are fitted in 4 parallel processes.
+02_Model01_Method1_ZeroMean_RQ.ipynb: OK (25 s)
+02_Model02_Method2_GcCorrection_RQ.ipynb: OK (30 s)
+02_Model03_Method3_GcMean_RQ.ipynb: OK (32 s)
+02_Model04_Method4_LinearMean_RQ.ipynb: OK (31 s)
+02_Model05_Method4_RBF.ipynb: OK (31 s)
+02_Model06_Method4_Matern12.ipynb: OK (31 s)
+02_Model07_Method4_Matern32.ipynb: OK (31 s)
+02_Model08_Method4_Matern52.ipynb: OK (26 s)
+02_Model09_Method4_Matern32_BFGS.ipynb: OK (37 s)
+02_Model10_Method4_Matern12_BFGS.ipynb: OK (28 s)
+02_Model11_Method4_AnisotropicMatern.ipynb: OK (33 s)
+02_Model12_Method4_AnisotropicMatern_TrainedNoise.ipynb: OK (30 s)
+Executed notebooks are in Output_Data/executed_notebooks

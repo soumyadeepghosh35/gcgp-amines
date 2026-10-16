@@ -1,0 +1,10 @@
+.mean_function.A: [[0.042503]
+ [0.853971]]
+.mean_function.b: [-0.274718]
+.kernel.kernels[0].variance: 0.059955
+.kernel.kernels[0].lengthscales: 2.544093
+.kernel.kernels[1].variance: 0.141982
+.likelihood.variance: 1.e-05
+Condition number: 220.4388395500295
+Fit success: True
+Log marginal likelihood: -323.78813699632246
