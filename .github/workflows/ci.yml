@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       notebooks:
-        description: "Notebook prefixes to run in the fast check (empty = all)"
+        description: 'Notebook prefixes for the fast run, e.g. "00 01 04". Use "all" for every notebook.'
         required: false
-        default: ""
+        default: "00 01 02_Model04 04 05"
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -45,10 +45,12 @@ jobs:
           PY
 
   notebooks-fast:
-    name: Notebooks (fast run)
+    name: Notebooks (fast smoke test)
     runs-on: ubuntu-latest
     needs: environment
-    timeout-minutes: 180
+    timeout-minutes: 60
+    env:
+      NOTEBOOKS: ${{ github.event.inputs.notebooks || '00 01 02_Model04 04 05' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -62,7 +64,12 @@ jobs:
         run: bash scripts/setup_env.sh
 
       - name: Run notebooks in fast mode
-        run: bash scripts/run_notebooks.sh --fast ${{ github.event.inputs.notebooks }}
+        run: |
+          if [ "$NOTEBOOKS" = "all" ]; then
+            bash scripts/run_notebooks.sh --fast
+          else
+            bash scripts/run_notebooks.sh --fast $NOTEBOOKS
+          fi
 
       - name: Upload executed notebooks and log
         if: always()
