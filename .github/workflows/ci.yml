@@ -18,12 +18,12 @@ concurrency:
 jobs:
   environment:
     name: Environment check
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: pip
@@ -46,15 +46,15 @@ jobs:
 
   notebooks-fast:
     name: Notebooks (fast smoke test)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: environment
     timeout-minutes: 60
     env:
       NOTEBOOKS: ${{ github.event.inputs.notebooks || '00 01 02_Model04 04 05' }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: pip
@@ -73,7 +73,7 @@ jobs:
 
       - name: Upload executed notebooks and log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: executed-notebooks
           path: Output_Data/executed_notebooks/
