@@ -10,3 +10,4 @@ venv/
 *.joblib
 *.h5
 .vscode/
+agent_chat/
