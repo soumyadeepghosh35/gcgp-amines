@@ -250,9 +250,15 @@ def modelColorMap(modelNames):
     return {name: palette[i] for i, name in enumerate(names)}
 
 
-def plotMetricBars(ax, df, metric, colors, title):
-    """One bar per model for one metric, with the model name written in the bar."""
+def plotMetricBars(ax, df, metric, colors, title, errors=None):
+    """One bar per model for one metric, with the model name written in the bar.
+
+    ``errors`` (optional, one value per bar) draws a black line of that half-length on each bar.
+    """
     sns.barplot(x="Model", y=metric, data=df, palette=colors, hue="Model", legend=False, ax=ax, width=1)
+    if errors is not None:
+        ax.errorbar(np.arange(len(df)), df[metric].to_numpy(), yerr=np.asarray(errors, dtype=float),
+                    fmt="none", ecolor="k", elinewidth=1.2, capsize=3)
     ax.set_title(title, fontsize=12, fontweight="bold")
     ax.set_xlabel("")
     ax.set_ylabel(metric, fontsize=12, fontweight="bold")
@@ -270,7 +276,7 @@ def plotTestParityGrid(predictionTables, title, savePath=None, show=True, nCols=
 
     ``predictionTables`` maps a property code to a table with columns
     ``Set``, ``Experimental``, ``Predicted`` and ``CI95`` (the format written
-    by :func:`gcgp.singleSplit.runSingleSplit`).
+    by :func:`gcgp.kernelCv.cvTestPredictions`).
     """
     codes = list(predictionTables)
     nRows = int(np.ceil(len(codes) / nCols))

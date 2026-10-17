@@ -85,33 +85,47 @@ def describeBaseline(metricsDf):
     return "\n".join(lines) + "\n"
 
 
-def describeSingleSplit(summaryDf, modelTitle):
-    """Sentences for one 02_Model notebook."""
+def describeKernelCv(summaryDf, modelTitle):
+    """Sentences for one 02_Model notebook (10-fold cross-validation)."""
     lines = [header(f"{modelTitle}: results")]
     if summaryDf.empty:
         lines.append("No run produced a usable fit.")
         return "\n".join(lines) + "\n"
     for _, row in summaryDf.iterrows():
         code = row["Property"]
-        lines.append(f"- {label(code)} ({int(row['N_Train'])} train / {int(row['N_Test'])} test): "
-                     f"test R² = {formatNumber(row['Test_R2'])}, RMSE = {withUnit(row['Test_RMSE'], code)}, "
-                     f"MAE = {withUnit(row['Test_MAE'], code)}; "
-                     f"{100 * (1 - row['CI_Test_Outside']):.1f}% of test molecules inside the 95% interval.")
+        lines.append(f"- {label(code)} ({int(row['N_Molecules'])} molecules, "
+                     f"{int(row['N_Successful_Folds'])} of {int(row['N_Folds'])} folds used): "
+                     f"pooled test R² = {formatNumber(row['Overall_Test_R2'])} "
+                     f"(fold mean {formatNumber(row['Mean_Test_R2'])} ± {formatNumber(row['Std_Test_R2'])}), "
+                     f"RMSE = {withUnit(row['Overall_Test_RMSE'], code)}, "
+                     f"MAE = {withUnit(row['Overall_Test_MAE'], code)}; "
+                     f"{100 * (1 - row['CI_Test_Outside_Frac']):.1f}% of molecules inside the 95% interval.")
     return "\n".join(lines) + "\n"
 
 
-def describeKernelComparison(metricsDf, bestDf):
+def describeKernelComparison(metricsDf, bestDf, tiesDf=None):
     """Sentences for notebook 03 (best model per property and spread across models)."""
     lines = [header("Comparison of the twelve GC-GP models: results")]
     for code in [c for c in PROPERTY_ORDER if c in bestDf.index]:
         row = bestDf.loc[code]
-        allR2 = metricsDf.loc[metricsDf["Property"] == code, "R2"]
-        lines.append(f"- **{label(code)}**: best is {row['Model']} with test "
-                     f"R² = {formatNumber(row['R2'])} and RMSE = {withUnit(row['RMSE'], code)}. Across the "
-                     f"{len(allR2)} models, test R² ranges from {formatNumber(allR2.min())} to "
-                     f"{formatNumber(allR2.max())}.")
-    lines.append("\nEach value comes from a single train/test split, so small differences between "
-                 "models should not be over-interpreted.")
+        group = metricsDf[metricsDf["Property"] == code]
+        text = (f"- **{label(code)}**: best is {row['Model']} with pooled test "
+                f"R² = {formatNumber(row['R2'])} (fold mean {formatNumber(row['R2_Mean'])} ± "
+                f"{formatNumber(row['R2_Std'])}) and RMSE = {withUnit(row['RMSE'], code)}.")
+        if len(group) > 1:
+            text += (f" Across the {len(group)} models, pooled test R² ranges from "
+                     f"{formatNumber(group['R2'].min())} to {formatNumber(group['R2'].max())}.")
+        if tiesDf is not None and code in tiesDf.index:
+            tied = tiesDf.loc[code, "Indistinguishable"]
+            nTied = len(tied.split(", "))
+            text += (f" {nTied} model{'s are' if nTied > 1 else ' is'} within one standard error "
+                     f"of the best fold-mean R² ({tied}).")
+        lines.append(text)
+    lines.append("\nEvery model was scored with the same 10-fold cross-validation on the same folds, "
+                 "so the models are compared on the same molecules. Models inside the one-standard-error "
+                 "band cannot be told apart. The models were chosen and scored on the same molecules, "
+                 "so these scores are somewhat optimistic; the final models are re-run in "
+                 "`04_Final_GCGP_CrossValidation.ipynb`.")
     return "\n".join(lines) + "\n"
 
 

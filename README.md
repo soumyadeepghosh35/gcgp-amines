@@ -34,8 +34,8 @@ starts and reports any missing file by name.
 |:--|:--|
 | `00_Data_Curation` | Builds the curated dataset of each property; the only place where molecules are removed |
 | `01_JRGC_Baseline` | Linear GC baseline on an 80/20 split, plus raw GC errors |
-| `02_Model01` … `02_Model12` | One GC-GP model form or kernel per notebook, fitted to all properties on an 80/20 split |
-| `03_Kernel_Comparison` | Compares the twelve models |
+| `02_Model01` … `02_Model12` | One GC-GP model form or kernel per notebook, scored on all properties with the same 10-fold cross-validation |
+| `03_Kernel_Comparison` | Compares the twelve models on their cross-validated metrics, with the fold-to-fold spread |
 | `04_Final_GCGP_CrossValidation` | 10-fold CV of the final model for each property |
 | `05_Uncertainty_Coverage` | Share of molecules inside the 95% prediction interval |
 | `06_ML_Baseline_Comparison` | GP versus SVR, random forest, XGBoost and a neural network on the same folds |
@@ -110,11 +110,11 @@ changing any result:
 
 When a GP fit fails numerically, for example when TensorFlow reports
 "Cholesky decomposition was not successful", the code does not stop. In
-cross-validation (notebooks 04 and 06) the failed fold is dropped, a message is
+cross-validation (notebooks 02, 04 and 06) the failed fold is dropped, a message is
 printed, and the pooled metrics use the remaining folds. The dropped folds and
 the reason are listed in the fold table and in the `Dropped_Folds` column of the
-summary. In the single-split notebooks (02) a run that cannot be fitted is
-reported and left out of the summary table.
+summary. In the kernel-study notebooks (02) a failed fold is dropped the same way, and a
+property with fewer than five usable folds is reported and left out of the summary table.
 
 ## Setup
 
