@@ -390,8 +390,7 @@ def plotErrorComparison(table, code, savePath=None, nLabels=10, show=True):
     ax.set_ylim(0, high)
     ax.set_xlabel(f"JRGC absolute error{unitText}")
     ax.set_ylabel(f"GC-GP absolute error{unitText}")
-    ax.set_title(f"{PROPERTIES[code]['label']}: error of each model per molecule")
-    ax.legend(fontsize=8, loc="upper left")
+    ax.legend(fontsize=8, loc="upper left", frameon=False)
     ax.grid(True, alpha=0.3)
 
     ax = axes[1]
@@ -401,7 +400,6 @@ def plotErrorComparison(table, code, savePath=None, nLabels=10, show=True):
     ax.plot([low, top], [low, top], "k--", linewidth=1.2, alpha=0.7)
     ax.set_xlabel(f"JRGC prediction{unitText}")
     ax.set_ylabel(f"GC-GP prediction{unitText}")
-    ax.set_title("Where the two predictions disagree")
     ax.grid(True, alpha=0.3)
 
     labelled = table[table["Difference_Rank"] <= nLabels]

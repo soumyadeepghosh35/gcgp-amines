@@ -220,8 +220,7 @@ def plotCuration(code, savePath=None, show=True):
     unitText = f" ({unit})" if unit else ""
     ax.set_xlabel(f"Experimental {info['label']}{unitText}")
     ax.set_ylabel(f"Experimental minus GC estimate{unitText}")
-    ax.set_title(f"{info['label']}: {summary['Curated_rows']} of {summary['Usable_rows']} molecules kept")
-    ax.legend(fontsize=8)
+    ax.legend(fontsize=8, frameon=False)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
     savePlot(fig, savePath)

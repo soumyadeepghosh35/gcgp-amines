@@ -15,6 +15,8 @@ from .metrics import calculateMetrics
 TRAIN_COLOR = "blue"
 TEST_COLOR = "red"
 
+plt.rcParams["legend.frameon"] = False
+
 
 FIGURE_FORMATS = ("png", "pdf")
 FIGURE_DPI = 600
@@ -55,6 +57,13 @@ def addMetricsText(ax, stats, setName, color, corner, fontsize=12):
                 va="bottom", ha="right", color=color)
 
 
+def addStatsBox(ax, header, stats, fontsize=10):
+    """Write a header line and R², RMSE, MAE and MAPE in the upper left of the axes."""
+    text = (f"{header}\nR² = {stats['R2']:.3f}, RMSE = {stats['RMSE']:.2f}\n"
+            f"MAE = {stats['MAE']:.2f}, MAPE = {stats['MAPE']:.1f}%")
+    ax.text(0.02, 0.98, text, transform=ax.transAxes, fontsize=fontsize, va="top", ha="left")
+
+
 def plotSingleSplitResults(yTrainTrue, yTrainPred, yTestTrue, yTestPred,
                            yTrainCi, yTestCi, propertyName, savePath=None, show=True):
     """Three parity panels (train, test, both) with 95% error bars.
@@ -72,7 +81,6 @@ def plotSingleSplitResults(yTrainTrue, yTrainPred, yTestTrue, yTestPred,
     allStats = calculateMetrics(yAllTrue, yAllPred)
 
     fig, axes = plt.subplots(1, 3, figsize=(18, 6))
-    fig.suptitle(f"GP predictions for {propertyName}", fontsize=16, fontweight="bold")
 
     panels = [
         (axes[0], "Training set", yTrainTrue, yTrainPred, yTrainCi, TRAIN_COLOR, trainStats),
@@ -83,8 +91,7 @@ def plotSingleSplitResults(yTrainTrue, yTrainPred, yTestTrue, yTestPred,
         ax.errorbar(yt, yp, yerr=ci, fmt="none", alpha=0.3, color=color, label="95% interval")
         low, high = min(yt.min(), yp.min()), max(yt.max(), yp.max())
         ax.plot([low, high], [low, high], "k--", alpha=0.7, linewidth=2, label="Parity")
-        ax.set_title(f"{title} (n={len(yt)})\nR² = {stats['R2']:.3f}, RMSE = {stats['RMSE']:.2f}\n"
-                     f"MAE = {stats['MAE']:.2f}, MAPE = {stats['MAPE']:.1f}%")
+        addStatsBox(ax, f"{title} (n={len(yt)})", stats)
         ax.legend(loc="lower right", fontsize=9)
 
     ax = axes[2]
@@ -93,8 +100,7 @@ def plotSingleSplitResults(yTrainTrue, yTrainPred, yTestTrue, yTestPred,
     ax.errorbar(yAllTrue, yAllPred, yerr=yAllCi, fmt="none", alpha=0.2, color="gray", label="95% interval")
     low, high = min(yAllTrue.min(), yAllPred.min()), max(yAllTrue.max(), yAllPred.max())
     ax.plot([low, high], [low, high], "k--", alpha=0.7, linewidth=2, label="Parity")
-    ax.set_title(f"Combined (n={len(yAllTrue)})\nR² = {allStats['R2']:.3f}, RMSE = {allStats['RMSE']:.2f}\n"
-                 f"MAE = {allStats['MAE']:.2f}, MAPE = {allStats['MAPE']:.1f}%")
+    addStatsBox(ax, f"Combined (n={len(yAllTrue)})", allStats)
     ax.legend(loc="lower right", fontsize=9)
 
     for ax in axes:
@@ -135,7 +141,6 @@ def plotParity(yTrainTrue, yTrainPred, yTestTrue, yTestPred, xLabel, yLabel, tit
 
     ax.set_xlabel(xLabel, fontsize=fontsize, fontweight="bold")
     ax.set_ylabel(yLabel, fontsize=fontsize, fontweight="bold")
-    ax.set_title(title, fontsize=fontsize, fontweight="bold")
     ax.tick_params(axis="both", labelsize=fontsize)
     ax.set_xlim(low, high)
     ax.set_ylim(low, high)
@@ -164,7 +169,6 @@ def plotFoldR2(foldMetricsDf, trainOverall, testOverall, title, savePath=None, s
     ax.set_xticklabels(foldIds)
     ax.set_xlabel("Fold", fontsize=12, fontweight="bold")
     ax.set_ylabel("R²", fontsize=12, fontweight="bold")
-    ax.set_title(title, fontsize=12, fontweight="bold")
     ax.legend(fontsize=10, loc="lower left")
     ax.grid(True, alpha=0.3, axis="y")
     fig.tight_layout()
@@ -177,7 +181,7 @@ def plotCoverageBars(coverageDf, labels, savePath=None, brokenAxis=True, show=Tr
 
     ``coverageDf`` needs ``Train`` and ``Test`` columns (percent) in plotting
     order. With ``brokenAxis=True`` the figure uses a broken y axis (upper
-    panel 80-107%, lower panel 0-10%), as in the original figure. Set it to False for one
+    panel 80-108%, lower panel 0-10%), as in the original figure. Set it to False for one
     continuous axis, which is easier to read.
     """
     x = np.arange(len(labels))
@@ -190,14 +194,15 @@ def plotCoverageBars(coverageDf, labels, savePath=None, brokenAxis=True, show=Tr
         trainBars = ax.bar(x - width / 2, trainVals, width, color=TRAIN_COLOR, edgecolor="k", label="Train")
         testBars = ax.bar(x + width / 2, testVals, width, color=TEST_COLOR, edgecolor="k", label="Test")
         ax.axhline(95, color="k", linestyle=":", linewidth=1.5, label="Nominal 95%")
-        ax.set_ylim(80, 107)
+        ax.set_ylim(80, 108)
+        ax.set_yticks(np.arange(80, 101, 5))
         ax.set_xticks(x)
         ax.set_xticklabels(labels, fontsize=13, fontweight="bold")
         ax.set_ylabel("Points inside the 95% interval (%)", fontsize=12, fontweight="bold")
         for bar in list(trainBars) + list(testBars):
             ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.5, f"{bar.get_height():.1f}",
                     ha="center", va="bottom", rotation=90, fontsize=10)
-        ax.legend(ncol=3, loc="upper center", bbox_to_anchor=(0.5, 1.15))
+        ax.legend(ncol=3, loc="upper center", bbox_to_anchor=(0.5, 0.98))
         fig.tight_layout()
         savePlot(fig, savePath)
         finishFigure(fig, show)
@@ -210,13 +215,13 @@ def plotCoverageBars(coverageDf, labels, savePath=None, brokenAxis=True, show=Tr
     axBottom.bar(x - width / 2, trainVals, width, color=TRAIN_COLOR, edgecolor="k")
     axBottom.bar(x + width / 2, testVals, width, color=TEST_COLOR, edgecolor="k")
 
-    axTop.set_ylim(80, 107)
+    axTop.set_ylim(80, 108)
+    axTop.set_yticks(np.arange(80, 101, 5))
     axBottom.set_ylim(0, 10)
     axBottom.set_yticks(np.arange(0, 11, 5))
     axTop.spines.bottom.set_visible(False)
     axBottom.spines.top.set_visible(False)
-    axTop.xaxis.tick_top()
-    axTop.tick_params(labeltop=False)
+    axTop.tick_params(axis="x", which="both", top=False, bottom=False, labeltop=False, labelbottom=False)
     axBottom.xaxis.tick_bottom()
     axBottom.set_xticks(x)
     axBottom.set_xticklabels(labels, fontsize=13, fontweight="bold")
@@ -237,7 +242,7 @@ def plotCoverageBars(coverageDf, labels, savePath=None, brokenAxis=True, show=Tr
              rotation="vertical", fontsize=13, fontweight="bold")
     axTop.tick_params(axis="y", labelsize=12)
     axBottom.tick_params(axis="y", labelsize=12)
-    axTop.legend(ncol=2, loc="upper center", bbox_to_anchor=(0.5, 1.15))
+    axTop.legend(ncol=2, loc="upper center", bbox_to_anchor=(0.5, 0.98))
     fig.tight_layout()
     savePlot(fig, savePath)
     finishFigure(fig, show)
@@ -259,7 +264,6 @@ def plotMetricBars(ax, df, metric, colors, title, errors=None):
     if errors is not None:
         ax.errorbar(np.arange(len(df)), df[metric].to_numpy(), yerr=np.asarray(errors, dtype=float),
                     fmt="none", ecolor="k", elinewidth=1.2, capsize=3)
-    ax.set_title(title, fontsize=12, fontweight="bold")
     ax.set_xlabel("")
     ax.set_ylabel(metric, fontsize=12, fontweight="bold")
     ax.set_xticks([])
@@ -290,13 +294,13 @@ def plotTestParityGrid(predictionTables, title, savePath=None, show=True, nCols=
         low = min(test["Experimental"].min(), test["Predicted"].min())
         high = max(test["Experimental"].max(), test["Predicted"].max())
         ax.plot([low, high], [low, high], "k--", linewidth=1.5, label="Parity")
-        ax.set_title(f"{code}: R² = {stats['R2']:.2f}, RMSE = {stats['RMSE']:.2f}", fontsize=11)
+        ax.text(0.02, 0.98, f"{code}\nR² = {stats['R2']:.2f}, RMSE = {stats['RMSE']:.2f}",
+                transform=ax.transAxes, fontsize=10, va="top", ha="left")
         ax.set_xlabel("Experimental")
         ax.set_ylabel("Predicted")
-        ax.legend(fontsize=8, loc="upper left")
+        ax.legend(fontsize=8, loc="lower right")
     for ax in list(axes.flat)[len(codes):]:
         ax.axis("off")
-    fig.suptitle(title, fontsize=14, fontweight="bold")
     fig.tight_layout()
     savePlot(fig, savePath)
     finishFigure(fig, show)
@@ -310,7 +314,6 @@ def plotModelComparison(summaryDf, metric="Overall_Test_R2", savePath=None, show
     pivot.plot.bar(ax=ax, width=0.8, edgecolor="k")
     ax.set_xlabel("")
     ax.set_ylabel(metric.replace("Overall_", "Pooled ").replace("_", " "), fontsize=12, fontweight="bold")
-    ax.set_title("GP and standard ML models on the same CV folds", fontsize=12, fontweight="bold")
     ax.legend(title="Model", fontsize=9, ncol=5, loc="upper center", bbox_to_anchor=(0.5, -0.25))
     ax.tick_params(axis="x", rotation=30)
     ax.grid(True, axis="y", alpha=0.3)
