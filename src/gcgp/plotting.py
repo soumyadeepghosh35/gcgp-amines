@@ -309,12 +309,12 @@ def plotTestParityGrid(predictionTables, title, savePath=None, show=True, nCols=
 def plotModelComparison(summaryDf, metric="Overall_Test_R2", savePath=None, show=True):
     """Grouped bars: one group per property run, one bar per model."""
     pivot = summaryDf.pivot(index="Property", columns="Model", values=metric)
-    pivot = pivot[[m for m in ["GP", "SVR", "RandomForest", "XGBoost", "NeuralNetwork"] if m in pivot]]
+    pivot = pivot[[m for m in ["GP", "SVR", "RandomForest", "XGBoost", "NeuralNetwork", "Ensemble"] if m in pivot]]
     fig, ax = plt.subplots(figsize=(max(8, 1.3 * len(pivot)), 4.5))
     pivot.plot.bar(ax=ax, width=0.8, edgecolor="k")
     ax.set_xlabel("")
     ax.set_ylabel(metric.replace("Overall_", "Pooled ").replace("_", " "), fontsize=12, fontweight="bold")
-    ax.legend(title="Model", fontsize=9, ncol=5, loc="upper center", bbox_to_anchor=(0.5, -0.25))
+    ax.legend(title="Model", fontsize=9, ncol=6, loc="upper center", bbox_to_anchor=(0.5, -0.25))
     ax.tick_params(axis="x", rotation=30)
     ax.grid(True, axis="y", alpha=0.3)
     lowest = pivot.min().min()

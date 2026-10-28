@@ -3,8 +3,13 @@
 Reproduces ``EnsembleModel_wOptimizedModels.ipynb``. Despite the original
 name, no ensemble is built: each model (GP, SVR, random forest, XGBoost and a
 small neural network) is trained and scored separately on identical folds,
-using the same two inputs as the GP. The ML models give no uncertainty, so
-their interval columns are zero.
+using the same two inputs as the GP. The four single ML models give no
+uncertainty, so their interval columns are zero.
+
+The "Ensemble" model is added on top of these. It averages the four ML models
+with equal weights and takes its uncertainty from how much the four models
+disagree, scaled so that about 95% of held-out points fall inside the interval.
+The rule is identical for every property.
 """
 
 import numpy as np
@@ -24,6 +29,9 @@ from .plotting import plotFoldR2, plotParity
 from .settings import GLOBAL_SEED, ensureDir
 
 MODEL_NAMES = ["GP", "SVR", "RandomForest", "XGBoost", "NeuralNetwork"]
+ENSEMBLE_MEMBERS = ["SVR", "RandomForest", "XGBoost", "NeuralNetwork"]
+ENSEMBLE_LEVEL = 0.95
+ENSEMBLE_INNER_FOLDS = 5
 
 
 def getMlModels(seed=GLOBAL_SEED):
@@ -41,6 +49,60 @@ def getMlModels(seed=GLOBAL_SEED):
     }
 
 
+def fitMembers(XTrain, yTrain, memberNames=ENSEMBLE_MEMBERS):
+    """Fit one fresh copy of each member model and return them as a dict."""
+    estimators = getMlModels()
+    fitted = {}
+    for name in memberNames:
+        estimators[name].fit(XTrain, np.ravel(yTrain))
+        fitted[name] = estimators[name]
+    return fitted
+
+
+def predictMembers(fitted, X):
+    """Predictions of every member, one column per model, in the order of ``fitted``."""
+    return np.column_stack([model.predict(X) for model in fitted.values()])
+
+
+def ensembleMeanAndSpread(memberPred):
+    """Equal-weight mean and the standard deviation across members (the disagreement)."""
+    return memberPred.mean(axis=1), memberPred.std(axis=1, ddof=1)
+
+
+def calibrateEnsembleInterval(XTrain, yTrain, memberNames=ENSEMBLE_MEMBERS, level=ENSEMBLE_LEVEL,
+                              nInner=ENSEMBLE_INNER_FOLDS, seed=GLOBAL_SEED):
+    """Turn member disagreement into a 95% interval using only the training data.
+
+    The members are refitted on inner folds of the training set. For each
+    training molecule the out-of-fold error is divided by (disagreement + eps),
+    where eps is the median disagreement. The ``level`` quantile of those
+    scores, ``q``, is the multiplier, so the half-width of the interval for a
+    new point is ``q * (disagreement + eps)``. This is normalised split
+    conformal calibration. Returns ``(q, eps)``.
+    """
+    yTrain = np.ravel(yTrain)
+    oof = np.zeros((len(yTrain), len(memberNames)))
+    for innerTrain, innerTest in KFold(n_splits=nInner, shuffle=True, random_state=seed).split(XTrain):
+        fitted = fitMembers(XTrain[innerTrain], yTrain[innerTrain], memberNames)
+        oof[innerTest] = predictMembers(fitted, XTrain[innerTest])
+    mean, spread = ensembleMeanAndSpread(oof)
+    eps = float(np.median(spread)) + 1e-12
+    scores = np.sort(np.abs(yTrain - mean) / (spread + eps))
+    rank = min(len(scores), int(np.ceil((len(scores) + 1) * level)))
+    return float(scores[rank - 1]), eps
+
+
+def fitAndPredictEnsemble(XTrN, yTr, XTeN, memberNames=ENSEMBLE_MEMBERS):
+    """Ensemble prediction and 95% half-width for the training and test rows of one fold."""
+    q, eps = calibrateEnsembleInterval(XTrN, yTr, memberNames)
+    fitted = fitMembers(XTrN, yTr, memberNames)
+    out = {}
+    for key, X in (("Tr", XTrN), ("Te", XTeN)):
+        mean, spread = ensembleMeanAndSpread(predictMembers(fitted, X))
+        out[key] = (mean.reshape(-1, 1), (q * (spread + eps)).reshape(-1, 1))
+    return out
+
+
 def fitAndPredictMl(modelName, XTrain, yTrain, XTest, yTest, methodNumber):
     """Train one ML baseline on one fold and return predictions in property units.
 
@@ -53,15 +115,19 @@ def fitAndPredictMl(modelName, XTrain, yTrain, XTest, yTest, methodNumber):
     XTrN, scalerX = normalize(XTr, method=normMethod)
     XTeN, _ = normalize(XTe, scaler=scalerX, method=normMethod)
 
-    estimator = getMlModels()[modelName]
-    estimator.fit(XTrN, yTr.ravel())
-    predTr = estimator.predict(XTrN).reshape(-1, 1)
-    predTe = estimator.predict(XTeN).reshape(-1, 1)
+    if modelName == "Ensemble":
+        (predTr, ciTr), (predTe, ciTe) = fitAndPredictEnsemble(XTrN, yTr, XTeN).values()
+    else:
+        estimator = getMlModels()[modelName]
+        estimator.fit(XTrN, yTr.ravel())
+        predTr = estimator.predict(XTrN).reshape(-1, 1)
+        predTe = estimator.predict(XTeN).reshape(-1, 1)
+        ciTr, ciTe = np.zeros_like(predTr), np.zeros_like(predTe)
 
     if methodNumber == 2:
         yTr, yTe, predTr, predTe = yTr + gcTr, yTe + gcTe, predTr + gcTr, predTe + gcTe
-    return {"failed": False, "yTrainTrue": yTr, "yTrainPred": predTr, "yTrainCi": np.zeros_like(predTr),
-            "yTestTrue": yTe, "yTestPred": predTe, "yTestCi": np.zeros_like(predTe),
+    return {"failed": False, "yTrainTrue": yTr, "yTrainPred": predTr, "yTrainCi": ciTr,
+            "yTestTrue": yTe, "yTestPred": predTe, "yTestCi": ciTe,
             "lml": np.nan, "conditionNumber": np.nan}
 
 
